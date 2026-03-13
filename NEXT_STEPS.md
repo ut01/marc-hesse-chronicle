@@ -30,6 +30,7 @@
   - chapter-to-archive crosslinks with supporting milestone clusters and archive return links
   - chapter-aware archive scoping so support clusters open filtered evidence sets in the reference timeline
   - stronger editorial geography navigation cards with chapter tone, evidence counts, and source-backed cues
+  - chapter evidence matrix + open source gaps panel so sourcing strength is visible, not implied
 
 ## Next implementation steps
 1. Strengthen the source archive further by capturing more direct primary URLs for early academic/founding details.
