@@ -1,7 +1,7 @@
 {
   "title": {
     "text": {
-      "headline": "Sean Xiang — Founder Chronicle",
+      "headline": "Sean Xiang \u2014 Founder Chronicle",
       "text": "A simple MVP timeline of study, research, company building, partnerships, and AI-era milestones."
     }
   },
@@ -11,7 +11,7 @@
         "year": "16"
       },
       "text": {
-        "headline": "Age 16 — USTC",
+        "headline": "Age 16 \u2014 USTC",
         "text": "Entered the University of Science and Technology of China (working narrative; source verification pending)."
       },
       "sourceIds": [
@@ -72,13 +72,64 @@
       },
       "text": {
         "headline": "Bloombase Founded",
-        "text": "Co-founded Bloombase in the Silicon Valley / Redwood City context."
+        "text": "Co-founded Bloombase in the Silicon Valley / Redwood City context; direct company pages now strengthen the enterprise-positioning and geography trail even if the exact founding-day record remains thin."
       },
       "sourceIds": [
+        "bloombase-about",
+        "bloombase-offices",
+        "bloombase-news-index",
         "dossier",
         "timeline-v2"
       ],
       "id": "bloombase-founded",
+      "chapterId": "founding-bloombase"
+    },
+    {
+      "start_date": {
+        "year": "2013",
+        "month": "2",
+        "day": "18"
+      },
+      "text": {
+        "headline": "OpenStack Community",
+        "text": "Bloombase joins OpenStack, with Sean Xiang publicly framed as co-founder and CEO and cloud-security advocate."
+      },
+      "sourceIds": [
+        "openstack-2013"
+      ],
+      "id": "openstack-community",
+      "chapterId": "founding-bloombase"
+    },
+    {
+      "start_date": {
+        "year": "2013",
+        "month": "5",
+        "day": "8"
+      },
+      "text": {
+        "headline": "EMC Technology Partner Program",
+        "text": "Bloombase announces EMC interoperability across VNX, Atmos, and NetWorker as enterprise validation starts to stack up."
+      },
+      "sourceIds": [
+        "emc-2013"
+      ],
+      "id": "emc-technology-partner",
+      "chapterId": "founding-bloombase"
+    },
+    {
+      "start_date": {
+        "year": "2013",
+        "month": "8",
+        "day": "30"
+      },
+      "text": {
+        "headline": "VMware Technology Alliance",
+        "text": "Bloombase joins VMware's TAP program, making virtualization and cloud trust part of the public company narrative."
+      },
+      "sourceIds": [
+        "vmware-2013"
+      ],
+      "id": "vmware-technology-alliance-2013",
       "chapterId": "founding-bloombase"
     },
     {
@@ -88,8 +139,8 @@
         "day": "22"
       },
       "text": {
-        "headline": "VMware Technology Alliance",
-        "text": "Bloombase joins VMware Technology Alliance Partner Program."
+        "headline": "Dell Technology Partner Certification",
+        "text": "Bloombase achieves Dell Technology Partner certification for next-generation data-at-rest encryption security."
       },
       "sourceIds": [
         "vmware-2014"
