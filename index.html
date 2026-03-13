@@ -290,11 +290,80 @@
     }
     .map-caption {
       position: absolute; left: 18px; right: 18px; bottom: 18px; padding: 18px; border-radius: 18px;
-      background: rgba(255,255,255,.82); border: 1px solid rgba(25,50,79,.1); backdrop-filter: blur(10px); z-index: 5;
+      background: rgba(255,255,255,.84); border: 1px solid rgba(25,50,79,.1); backdrop-filter: blur(10px); z-index: 5;
+    }
+    .map-nav {
+      margin-top: 18px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .map-jump {
+      display: grid;
+      gap: 8px;
+      padding: 14px;
+      border-radius: 18px;
+      border: 1px solid rgba(25,50,79,.08);
+      background: rgba(255,255,255,.72);
+      color: var(--ink);
+      text-align: left;
+      cursor: pointer;
+      transition: .18s ease;
+    }
+    .map-jump:hover,
+    .map-jump.active {
+      transform: translateY(-1px);
+      border-color: rgba(25,50,79,.16);
+      background: rgba(25,50,79,.08);
+    }
+    .map-jump-kicker {
+      font-size: 10px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--soft);
+    }
+    .map-jump strong {
+      display: block;
+      font-size: 15px;
+      line-height: 1.4;
+      font-family: Georgia, serif;
+      letter-spacing: -.01em;
+    }
+    .map-jump span:last-child {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
     }
     .map-caption h3 { margin: 0 0 6px; font-size: 20px; font-family: Georgia, serif; }
     .map-caption p { margin: 0; color: var(--muted); line-height: 1.7; }
-    .map-caption .map-context { margin-top: 10px; font-size: 12px; color: var(--soft); letter-spacing: .08em; text-transform: uppercase; }
+    .map-caption .map-context { margin-top: 12px; font-size: 12px; color: var(--soft); letter-spacing: .08em; text-transform: uppercase; }
+    .map-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .map-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(25,50,79,.06);
+      border: 1px solid rgba(25,50,79,.08);
+      color: var(--accent);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .map-pill[data-tone="active-route"] {
+      background: rgba(180,138,90,.14);
+      color: #6f532f;
+    }
+    .map-pill[data-tone="mode"] {
+      background: rgba(45,95,115,.09);
+      color: #214c5e;
+    }
     .maplibregl-ctrl-bottom-left,
     .maplibregl-ctrl-bottom-right,
     .maplibregl-ctrl-top-left,
@@ -519,6 +588,40 @@
       display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: start;
       padding: 16px 18px; border-radius: 18px; background: rgba(255,255,255,.66); border: 1px solid rgba(25,50,79,.08);
     }
+    .source-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 10px;
+    }
+    .source-pill-meta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      border: 1px solid rgba(25,50,79,.08);
+      background: rgba(25,50,79,.04);
+      color: var(--accent);
+    }
+    .source-pill-meta[data-tone="first-party"],
+    .source-pill-meta[data-tone="primary"] {
+      background: rgba(180,138,90,.12);
+      color: #6f532f;
+    }
+    .source-pill-meta[data-tone="third-party"],
+    .source-pill-meta[data-tone="context"] {
+      background: rgba(45,95,115,.09);
+      color: #214c5e;
+    }
+    .source-pill-meta[data-tone="internal"],
+    .source-pill-meta[data-tone="working"] {
+      background: rgba(25,50,79,.06);
+      color: var(--accent);
+    }
     .source-item strong { display: block; margin-bottom: 6px; }
     .source-item p { margin: 0; color: var(--muted); line-height: 1.65; }
     .source-item a {
@@ -549,6 +652,7 @@
       .timeline-card { margin-left: 40px; }
       .timeline-card::before { left: -26px; }
       .map-shell { min-height: 400px; }
+      .map-nav { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -640,9 +744,14 @@
             <div class="map-caption">
               <h3 id="mapTitle">Loading…</h3>
               <p id="mapSummary"></p>
+              <div class="map-meta">
+                <span class="map-pill" data-tone="active-route" id="mapRoute">Preparing chapter route</span>
+                <span class="map-pill" data-tone="mode" id="mapMode">Narrative geography</span>
+              </div>
               <div class="map-context" id="mapContext">Narrative geography</div>
             </div>
           </div>
+          <div class="map-nav" id="mapNav" aria-label="Jump between chapter geographies"></div>
         </section>
 
         <section class="card validation-panel">
@@ -853,6 +962,21 @@
       sources.forEach((source) => {
         const article = make('article', 'source-item');
         const copy = make('div');
+        const meta = make('div', 'source-meta');
+
+        [
+          [source.publisherLabel, source.publisherType],
+          [source.categoryLabel, source.category],
+          [source.evidenceLabel, source.evidenceLevel],
+          [source.year, 'year']
+        ].forEach(([label, tone]) => {
+          if (!label) return;
+          const pill = make('span', 'source-pill-meta', label);
+          pill.dataset.tone = tone;
+          meta.append(pill);
+        });
+
+        copy.append(meta);
         copy.append(make('strong', '', source.label));
         copy.append(make('p', '', source.note));
         article.append(copy);
@@ -862,6 +986,23 @@
         if (link.target === '_blank') link.rel = 'noreferrer';
         article.append(link);
         root.append(article);
+      });
+    }
+
+    function renderMapNav(chapters, locationsById) {
+      const root = document.getElementById('mapNav');
+      chapters.forEach((chapter) => {
+        const button = make('button', 'map-jump');
+        button.type = 'button';
+        button.dataset.target = chapter.id;
+        const location = locationsById.get(chapter.locationId);
+        button.append(make('span', 'map-jump-kicker', chapter.range));
+        button.append(make('strong', '', location?.name || chapter.phase));
+        button.append(make('span', '', chapter.phase));
+        button.addEventListener('click', () => {
+          document.getElementById(chapter.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        root.append(button);
       });
     }
 
@@ -948,13 +1089,94 @@
       });
     }
 
+    function buildJourneyStages(chapters, locationById) {
+      const realLocation = (location) => location && Number.isFinite(location.lat) && Number.isFinite(location.lon) && !(location.lat === 0 && location.lon === 0);
+
+      return chapters.map((chapter, index) => {
+        const current = locationById.get(chapter.locationId);
+        if (!realLocation(current)) {
+          const previousReal = [...chapters]
+            .slice(0, index)
+            .reverse()
+            .map((item) => locationById.get(item.locationId))
+            .find((location) => realLocation(location));
+
+          return {
+            chapterId: chapter.id,
+            kind: 'distributed',
+            routeLabel: 'Distributed AI-era layer',
+            modeLabel: 'No single-city map state',
+            featureCollection: { type: 'FeatureCollection', features: [] },
+            previousLocationName: previousReal?.name || null
+          };
+        }
+
+        const previousReal = [...chapters]
+          .slice(0, index)
+          .reverse()
+          .map((item) => locationById.get(item.locationId))
+          .find((location) => realLocation(location));
+
+        if (!previousReal) {
+          return {
+            chapterId: chapter.id,
+            kind: 'origin',
+            routeLabel: 'Formation anchor',
+            modeLabel: 'Opening map state',
+            featureCollection: { type: 'FeatureCollection', features: [] },
+            previousLocationName: null
+          };
+        }
+
+        if (previousReal.id === current.id) {
+          return {
+            chapterId: chapter.id,
+            kind: 'anchor',
+            routeLabel: `Anchored in ${current.name}`,
+            modeLabel: 'Location stays fixed',
+            featureCollection: { type: 'FeatureCollection', features: [] },
+            previousLocationName: current.name
+          };
+        }
+
+        return {
+          chapterId: chapter.id,
+          kind: 'transition',
+          routeLabel: `${previousReal.name} -> ${current.name}`,
+          modeLabel: 'Chapter transition',
+          previousLocationName: previousReal.name,
+          featureCollection: {
+            type: 'FeatureCollection',
+            features: [
+              {
+                type: 'Feature',
+                properties: { chapterId: chapter.id },
+                geometry: {
+                  type: 'LineString',
+                  coordinates: [
+                    [previousReal.lon, previousReal.lat],
+                    [current.lon, current.lat]
+                  ]
+                }
+              }
+            ]
+          }
+        };
+      });
+    }
+
     function initializeMap(locations, chapters) {
       const title = document.getElementById('mapTitle');
       const summary = document.getElementById('mapSummary');
       const context = document.getElementById('mapContext');
+      const route = document.getElementById('mapRoute');
+      const mode = document.getElementById('mapMode');
       const markers = new Map();
+      const mapButtons = Array.from(document.querySelectorAll('.map-jump'));
       const locationById = new Map(locations.map((location) => [location.id, location]));
       const realLocations = locations.filter((location) => Number.isFinite(location.lat) && Number.isFinite(location.lon) && !(location.lat === 0 && location.lon === 0));
+      const journeyStages = new Map(buildJourneyStages(chapters, locationById).map((stage) => [stage.chapterId, stage]));
+      let lastActive = { locationId: chapters[0]?.locationId, chapter: chapters[0] };
 
       const map = new maplibregl.Map({
         container: 'map',
@@ -993,13 +1215,18 @@
           }
         });
 
+        map.addSource('active-route', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+
         map.addLayer({
           id: 'journey-route-glow',
           type: 'line',
           source: 'journey-route',
           paint: {
-            'line-color': 'rgba(25, 50, 79, 0.14)',
-            'line-width': 8,
+            'line-color': 'rgba(25, 50, 79, 0.10)',
+            'line-width': 6,
             'line-blur': 2
           }
         });
@@ -1009,9 +1236,30 @@
           type: 'line',
           source: 'journey-route',
           paint: {
-            'line-color': '#19324f',
-            'line-width': 2.5,
-            'line-dasharray': [2, 2]
+            'line-color': 'rgba(25, 50, 79, 0.45)',
+            'line-width': 1.8,
+            'line-dasharray': [2, 3]
+          }
+        });
+
+        map.addLayer({
+          id: 'active-route-glow',
+          type: 'line',
+          source: 'active-route',
+          paint: {
+            'line-color': 'rgba(180, 138, 90, 0.35)',
+            'line-width': 10,
+            'line-blur': 3
+          }
+        });
+
+        map.addLayer({
+          id: 'active-route-line',
+          type: 'line',
+          source: 'active-route',
+          paint: {
+            'line-color': '#b48a5a',
+            'line-width': 3.5
           }
         });
 
@@ -1031,26 +1279,43 @@
 
           markers.set(location.id, marker);
         });
+
+        if (lastActive.chapter) {
+          setActive(lastActive.locationId, lastActive.chapter);
+        }
       });
 
       function setActive(locationId, chapter) {
+        lastActive = { locationId, chapter };
+
         locations.forEach((location) => {
           const marker = markers.get(location.id);
           marker?.getElement().classList.toggle('active', location.id === locationId);
         });
+        mapButtons.forEach((button) => button.classList.toggle('active', button.dataset.target === chapter?.id));
 
         const current = locationById.get(locationId) || locations[0];
+        const stage = chapter ? journeyStages.get(chapter.id) : null;
         title.textContent = current.name;
-        summary.textContent = current.summary;
+        summary.textContent = chapter?.mapCaption || current.summary;
+        route.textContent = stage?.routeLabel || 'Narrative geography';
+        mode.textContent = stage?.modeLabel || 'Narrative geography';
         context.textContent = chapter ? `${chapter.phase} · ${chapter.range}` : 'Narrative geography';
 
         if (!map.loaded()) return;
 
-        const camera = current?.camera;
+        const activeRouteSource = map.getSource('active-route');
+        if (activeRouteSource && stage?.featureCollection) {
+          activeRouteSource.setData(stage.featureCollection);
+        }
+
+        const camera = chapter?.mapCamera || current?.camera;
         if (camera?.center && Number.isFinite(camera.zoom)) {
           map.flyTo({
             center: camera.center,
             zoom: camera.zoom,
+            pitch: Number.isFinite(camera.pitch) ? camera.pitch : 0,
+            bearing: Number.isFinite(camera.bearing) ? camera.bearing : 0,
             speed: locationId === 'global-ai' ? 0.42 : 0.5,
             curve: 1.2,
             essential: true
@@ -1104,6 +1369,7 @@
 
       const sourcesById = new Map(sources.map((source) => [source.id, source]));
       const taxonomyById = new Map(artifactTaxonomy.map((entry) => [entry.id, entry]));
+      const locationById = new Map(locations.map((location) => [location.id, location]));
       const artifactsByChapterId = new Map();
       artifacts.forEach((artifact) => {
         if (!artifactsByChapterId.has(artifact.chapterId)) artifactsByChapterId.set(artifact.chapterId, []);
@@ -1111,6 +1377,7 @@
       });
       renderPhaseRail(chapters);
       renderChapters(chapters, sourcesById, artifactsByChapterId, taxonomyById);
+      renderMapNav(chapters, locationById);
       const setActiveLocation = initializeMap(locations, chapters);
       renderValidation(validationGroups);
       renderArchive(timeline.events);
