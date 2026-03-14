@@ -2482,6 +2482,60 @@
       gap: 14px;
       margin: 0 0 18px;
     }
+    .exhibit-comparative-note {
+      margin: 0 0 18px;
+      padding: 16px 18px;
+      border-radius: 20px;
+      border: 1px solid rgba(25,50,79,.08);
+      background: linear-gradient(180deg, rgba(243,238,230,.92), rgba(255,255,255,.72));
+      color: var(--ink);
+      line-height: 1.76;
+    }
+    .exhibit-comparative-beats {
+      display: grid;
+      gap: 12px;
+      margin: 0 0 18px;
+    }
+    .exhibit-comparative-card {
+      display: grid;
+      gap: 12px;
+      padding: 18px;
+      border-radius: 20px;
+      border: 1px solid rgba(25,50,79,.08);
+      background: rgba(255,255,255,.68);
+    }
+    .exhibit-comparative-topline,
+    .exhibit-takeaways {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .exhibit-comparative-card h4 {
+      margin: 0;
+      font-family: Georgia, serif;
+      font-size: 21px;
+      line-height: 1.32;
+      letter-spacing: -.02em;
+    }
+    .exhibit-comparative-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .exhibit-takeaway-list {
+      display: grid;
+      gap: 10px;
+      margin: 0 0 18px;
+    }
+    .exhibit-takeaway-item {
+      padding: 14px 16px;
+      border-radius: 18px;
+      background: rgba(247,243,236,.82);
+      border: 1px solid rgba(25,50,79,.08);
+      color: var(--ink);
+      line-height: 1.7;
+    }
     .exhibit-frame-card {
       padding: 16px 18px;
       border-radius: 20px;
@@ -3849,6 +3903,41 @@
         readingFrame.append(frameB);
         card.append(readingFrame);
 
+        if (exhibit.comparativeNarrative) {
+          const note = make('div', 'exhibit-comparative-note');
+          note.textContent = exhibit.comparativeNarrative;
+          card.append(note);
+        }
+
+        if (exhibit.comparativeBeats?.length) {
+          const beats = make('section', 'exhibit-comparative-beats');
+          const header = make('div', 'exhibit-sequence-header');
+          header.append(make('strong', '', 'Comparative narrative'));
+          header.append(make('span', '', 'Each beat clarifies what kind of proof the reader is looking at, and why it matters in sequence.'));
+          beats.append(header);
+
+          exhibit.comparativeBeats.forEach((beat) => {
+            const beatCard = make('article', 'exhibit-comparative-card');
+            const topline = make('div', 'exhibit-comparative-topline');
+            if (beat.label) topline.append(make('span', 'artifact-pill', beat.label));
+            if (beat.emphasis) {
+              const emphasis = make('span', 'artifact-pill', beat.emphasis);
+              emphasis.dataset.tone = 'primary';
+              topline.append(emphasis);
+            }
+            if (beat.signal) {
+              const signal = make('span', 'artifact-pill', beat.signal);
+              signal.dataset.tone = 'evidence';
+              topline.append(signal);
+            }
+            if (topline.childNodes.length) beatCard.append(topline);
+            beatCard.append(make('h4', '', beat.title));
+            beatCard.append(make('p', '', beat.text));
+            beats.append(beatCard);
+          });
+          card.append(beats);
+        }
+
         if (insights.artifactEntries.length) {
           const sequence = make('section', 'exhibit-sequence');
           const sequenceHeader = make('div', 'exhibit-sequence-header');
@@ -3916,6 +4005,17 @@
           artifactStack.append(artifactCard);
         });
         card.append(artifactStack);
+
+        if (exhibit.takeaways?.length) {
+          const takeawayHeader = make('div', 'exhibit-takeaways');
+          takeawayHeader.append(make('span', 'artifact-pill', 'Editorial takeaways'));
+          const takeawayList = make('div', 'exhibit-takeaway-list');
+          exhibit.takeaways.forEach((item) => {
+            takeawayList.append(make('div', 'exhibit-takeaway-item', item));
+          });
+          card.append(takeawayHeader);
+          card.append(takeawayList);
+        }
 
         if (exhibit.lens?.length) {
           const lens = make('ul', 'exhibit-lens');
