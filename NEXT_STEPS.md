@@ -47,11 +47,14 @@
   - compact chapter cards now summarize each chapter’s editorial role, evidence density, strongest current anchor, and next upgrade target
   - a dedicated deep-evidence-desk card now offers explicit jumps into exhibits, chronology, and the source archive
   - chapter focus events now light up the matching compass card, making the chapter spine feel like a premium IA surface rather than passive ornament
+- preserved-archive evidence layer added from a local capture of Bloombase’s news index:
+  - `news-index.html` is now treated as an explicit archival source, not just a repo scrap
+  - new `data/archive-captures.json` turns the preserved HTML into a structured chronology-evidence card with coverage stats, notable visible entries, and connected source links
+  - the page now renders an archive-capture desk under the primary chronology ledger so readers can audit the release index itself, including the commented-out Huawei 2017 clue preserved in the HTML
+  - `data/sources.json` now includes the local preserved capture as a first-class source archive item
 
 ## Next implementation steps
 1. Strengthen the source archive further by capturing more direct primary URLs for early academic details, especially anything tighter than the current profile-level CUHK / Beckman trail.
-2. Populate the new media-deck slots with actual preserved captures or conference visuals for the AI-era chapter once durable public assets are collected.
-3. Now that the chapter compass exists, decide whether the next premium layer should deepen the exhibit treatment itself (for example stronger comparative layouts or grouped artifact narratives) or add chapter-specific deep-mode summaries that tee up the evidence desk more explicitly.
-4. Strengthen the source archive further by capturing more direct primary URLs for early academic details, especially anything tighter than the current profile-level CUHK / Beckman trail.
-5. Populate the new media-deck slots with actual preserved captures or conference visuals for the AI-era chapter once durable public assets are collected.
-6. Consider migrating the static prototype into Astro once the content model stabilizes.
+2. Populate the AI-era media-deck slots with actual preserved captures or conference visuals once durable public assets are collected, then route them through the same archive-capture system instead of ad-hoc visuals.
+3. Deepen the exhibit treatment so the strongest chapters read as grouped comparative narratives, not just richer individual cards.
+4. Consider migrating the static prototype into Astro once the content model stabilizes.

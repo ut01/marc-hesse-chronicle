@@ -1965,6 +1965,167 @@
       background: var(--accent);
       color: #f6f1e7;
     }
+    .archive-capture-wrap {
+      margin-top: 22px;
+      display: grid;
+      gap: 14px;
+    }
+    .archive-capture-card {
+      padding: 22px;
+      border-radius: 24px;
+      border: 1px solid rgba(25,50,79,.08);
+      background: linear-gradient(180deg, rgba(250,248,244,.96), rgba(243,238,230,.82));
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.55);
+      display: grid;
+      gap: 18px;
+    }
+    .archive-capture-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(260px, .92fr);
+      gap: 18px;
+      align-items: start;
+    }
+    .archive-capture-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--accent-2);
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .archive-capture-eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 1px;
+      background: currentColor;
+      opacity: .55;
+    }
+    .archive-capture-card h3 {
+      margin: 0 0 8px;
+      font-family: Georgia, serif;
+      font-size: 28px;
+      line-height: 1.2;
+      letter-spacing: -.02em;
+    }
+    .archive-capture-card p,
+    .archive-capture-card li {
+      color: var(--muted);
+      line-height: 1.75;
+    }
+    .archive-capture-meta {
+      display: grid;
+      gap: 10px;
+    }
+    .archive-capture-coverage {
+      padding: 14px 16px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.72);
+      border: 1px solid rgba(25,50,79,.08);
+    }
+    .archive-capture-coverage strong {
+      display: block;
+      margin-top: 6px;
+      font-family: Georgia, serif;
+      font-size: 24px;
+      color: var(--ink);
+    }
+    .archive-capture-metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .archive-capture-metric {
+      padding: 14px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.72);
+      border: 1px solid rgba(25,50,79,.08);
+    }
+    .archive-capture-metric strong {
+      display: block;
+      margin-bottom: 6px;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: var(--ink);
+    }
+    .archive-capture-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1.02fr) minmax(260px, .98fr);
+      gap: 14px;
+      align-items: start;
+    }
+    .archive-capture-panel {
+      padding: 16px;
+      border-radius: 20px;
+      border: 1px solid rgba(25,50,79,.08);
+      background: rgba(255,255,255,.66);
+      display: grid;
+      gap: 12px;
+    }
+    .archive-capture-panel h4 {
+      margin: 0;
+      font-size: 14px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--soft);
+    }
+    .archive-capture-highlights,
+    .archive-capture-sources,
+    .archive-capture-notes {
+      display: grid;
+      gap: 10px;
+    }
+    .archive-capture-highlight {
+      padding: 14px;
+      border-radius: 18px;
+      border: 1px solid rgba(25,50,79,.08);
+      background: rgba(246,243,237,.84);
+    }
+    .archive-capture-highlight-topline {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--soft);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .archive-capture-highlight h5 {
+      margin: 0 0 6px;
+      font-size: 17px;
+      line-height: 1.4;
+    }
+    .archive-capture-highlight p,
+    .archive-capture-note {
+      margin: 0;
+      font-size: 14px;
+    }
+    .archive-capture-note {
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(25,50,79,.05);
+      border: 1px solid rgba(25,50,79,.06);
+    }
+    .archive-capture-actions,
+    .archive-capture-source-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .archive-capture-source {
+      text-decoration: none;
+      padding: 9px 11px;
+      border-radius: 999px;
+      border: 1px solid rgba(25,50,79,.08);
+      background: rgba(25,50,79,.06);
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
     .source-explorer {
       margin-top: 18px;
       margin-bottom: 18px;
@@ -2482,7 +2643,7 @@
     .footer-note { margin-top: 18px; color: var(--soft); font-size: 13px; line-height: 1.7; }
 
     @media (max-width: 1080px) {
-      .hero, .overview, .main-grid, .archive-header, .present-grid, .evidence-audit, .source-explorer-header, .exhibit-grid, .ledger-grid, .reader-modes, .chapter-compass-header, .exhibit-reading-frame { grid-template-columns: 1fr; }
+      .hero, .overview, .main-grid, .archive-header, .present-grid, .evidence-audit, .source-explorer-header, .exhibit-grid, .ledger-grid, .reader-modes, .chapter-compass-header, .exhibit-reading-frame, .archive-capture-head, .archive-capture-body { grid-template-columns: 1fr; }
       .sticky-stack { position: static; }
       .phase-rail ol { grid-template-columns: repeat(3, minmax(0,1fr)); }
       .archive-controls { justify-items: start; }
@@ -2497,7 +2658,7 @@
       .chapter { padding-left: 28px; }
       .chapter::before { left: 12px; }
       .thesis-grid { grid-template-columns: 1fr; }
-      .evidence-strip, .source-summary, .source-dossier-grid, .ledger-metrics, .chapter-compass-metrics { grid-template-columns: 1fr; }
+      .evidence-strip, .source-summary, .source-dossier-grid, .ledger-metrics, .chapter-compass-metrics, .archive-capture-metrics, .public-record-stats, .public-record-entries { grid-template-columns: 1fr; }
       .source-item { grid-template-columns: 1fr; }
       .source-support-row, .source-filter-group, .source-active-state { align-items: flex-start; }
       .archive-timeline::before { left: 24px; }
@@ -2773,6 +2934,7 @@
             <h3>What the public record actually looks like when the source trail is grouped into arcs</h3>
             <p class="public-record-intro">Instead of making readers infer chronology from scattered links, this ledger groups the strongest public record into a few editorial arcs: the opening bridge before the dense release trail, the enterprise validation years, and the AI-era continuity layer. It is a navigation surface, not just a footnote dump.</p>
             <div class="public-record-grid" id="publicRecordLedger"></div>
+            <div class="archive-capture-wrap" id="archiveCaptureDesk"></div>
           </section>
         </div>
         <div class="sources-list" id="sourcesList"></div>
@@ -4198,6 +4360,92 @@
       draw();
     }
 
+    function renderArchiveCaptures(captures, sourcesById) {
+      const root = document.getElementById('archiveCaptureDesk');
+      if (!root) return;
+      root.innerHTML = '';
+      if (!captures?.length) return;
+
+      captures.forEach((capture) => {
+        const card = make('article', 'archive-capture-card');
+        const head = make('div', 'archive-capture-head');
+        const copy = make('div');
+        if (capture.eyebrow) copy.append(make('div', 'archive-capture-eyebrow', capture.eyebrow));
+        copy.append(make('h3', '', capture.title));
+        copy.append(make('p', '', capture.summary));
+        head.append(copy);
+
+        const meta = make('div', 'archive-capture-meta');
+        const coverage = make('div', 'archive-capture-coverage');
+        coverage.append(make('span', 'section-label', capture.coverageLabel || 'Coverage'));
+        coverage.append(make('strong', '', capture.coverageValue || 'Chronology capture'));
+        meta.append(coverage);
+        const metrics = make('div', 'archive-capture-metrics');
+        (capture.metrics || []).forEach((metric) => {
+          const metricCard = make('div', 'archive-capture-metric');
+          metricCard.append(make('strong', '', metric.value));
+          metricCard.append(make('span', '', metric.label));
+          metrics.append(metricCard);
+        });
+        meta.append(metrics);
+        head.append(meta);
+        card.append(head);
+
+        const body = make('div', 'archive-capture-body');
+        const highlightsPanel = make('section', 'archive-capture-panel');
+        highlightsPanel.append(make('h4', '', 'What this capture proves'));
+        const highlights = make('div', 'archive-capture-highlights');
+        (capture.entryHighlights || []).forEach((entry) => {
+          const entryCard = make('article', 'archive-capture-highlight');
+          const topline = make('div', 'archive-capture-highlight-topline');
+          topline.append(make('span', '', entry.dateLabel));
+          topline.append(make('span', '', 'Visible in preserved index'));
+          entryCard.append(topline);
+          entryCard.append(make('h5', '', entry.title));
+          entryCard.append(make('p', '', entry.summary));
+          highlights.append(entryCard);
+        });
+        highlightsPanel.append(highlights);
+        body.append(highlightsPanel);
+
+        const supportPanel = make('section', 'archive-capture-panel');
+        supportPanel.append(make('h4', '', 'How to use it'));
+        const notes = make('div', 'archive-capture-notes');
+        (capture.notes || []).forEach((note) => notes.append(make('div', 'archive-capture-note', note)));
+        supportPanel.append(notes);
+
+        const sourceRow = make('div', 'archive-capture-sources');
+        sourceRow.append(make('h4', '', 'Connected sources'));
+        const pills = make('div', 'archive-capture-source-row');
+        (capture.sourceIds || []).map((sourceId) => sourcesById.get(sourceId)).filter(Boolean).forEach((source) => {
+          const pill = make('a', 'archive-capture-source', source.label);
+          pill.href = source.url;
+          pill.target = source.url.startsWith('http') ? '_blank' : '_self';
+          if (pill.target === '_blank') pill.rel = 'noreferrer';
+          pills.append(pill);
+        });
+        sourceRow.append(pills);
+        supportPanel.append(sourceRow);
+
+        const actions = make('div', 'archive-capture-actions');
+        const openCapture = make('a', 'public-record-action primary', capture.captureLabel || 'Open capture');
+        openCapture.href = capture.capturePath;
+        actions.append(openCapture);
+        if (capture.capturedFrom) {
+          const origin = make('a', 'public-record-action', capture.capturedFromLabel || 'Open original');
+          origin.href = capture.capturedFrom;
+          origin.target = '_blank';
+          origin.rel = 'noreferrer';
+          actions.append(origin);
+        }
+        supportPanel.append(actions);
+        body.append(supportPanel);
+
+        card.append(body);
+        root.append(card);
+      });
+    }
+
     function sourceSupportTone(source) {
       if (source.publisherType === 'first-party') return 'primary';
       if (source.publisherType === 'third-party') return 'context';
@@ -5185,7 +5433,7 @@
     }
 
     async function init() {
-      const [chapters, locations, validationGroups, sources, timeline, artifacts, artifactTaxonomy, presentDirection, sourceRoadmap, deepBriefs, exhibits, publicRecordLedger] = await Promise.all([
+      const [chapters, locations, validationGroups, sources, timeline, artifacts, artifactTaxonomy, presentDirection, sourceRoadmap, deepBriefs, exhibits, publicRecordLedger, archiveCaptures] = await Promise.all([
         loadJson('./data/chapters.json'),
         loadJson('./data/locations.json'),
         loadJson('./data/validation.json'),
@@ -5197,7 +5445,8 @@
         loadJson('./data/source-roadmap.json'),
         loadJson('./data/deep-briefs.json'),
         loadJson('./data/exhibits.json'),
-        loadJson('./data/public-record-ledger.json')
+        loadJson('./data/public-record-ledger.json'),
+        loadJson('./data/archive-captures.json')
       ]);
 
       const sourcesById = new Map(sources.map((source) => [source.id, source]));
@@ -5230,6 +5479,7 @@
       renderSourceDossiers(chapters, sourcesById, eventsByChapterId, artifactsByChapterId, sourceRoadmap);
       renderSourceRoadmap(sourceRoadmap, chaptersById, sourcesById);
       renderPublicRecordLedger(publicRecordLedger, chaptersById, sourcesById);
+      renderArchiveCaptures(archiveCaptures, sourcesById);
       renderSources(sources, chapters, chaptersById, eventsByChapterId, artifactsByChapterId, sourceRoadmap);
       activateScrollSync(chapters, setActiveLocation);
     }

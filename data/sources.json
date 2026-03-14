@@ -380,6 +380,25 @@
     "verificationStateLabel": "Direct claim support"
   },
   {
+    "id": "bloombase-news-index-capture-2026",
+    "label": "Preserved Bloombase news index capture (local HTML)",
+    "url": "./news-index.html",
+    "note": "Local preserved capture of the Bloombase news-and-events index used as an archival evidence surface inside the chronicle repo.",
+    "category": "archive-capture",
+    "categoryLabel": "Preserved archival capture",
+    "publisherType": "internal",
+    "publisherLabel": "In-repo preserved capture",
+    "evidenceLevel": "primary",
+    "evidenceLabel": "Primary capture",
+    "year": "2026",
+    "directnessLabel": "Captured first-party chronology page",
+    "artifactReadinessLabel": "Primary artifact ready",
+    "claimScope": "chronology ledger",
+    "claimScopeLabel": "Chronology ledger",
+    "verificationState": "direct",
+    "verificationStateLabel": "Direct claim support"
+  },
+  {
     "id": "openstack-2013",
     "label": "Bloombase joins OpenStack community (2013-02-18)",
     "url": "https://www.bloombase.com/news_and_events/20130218-1.html",
