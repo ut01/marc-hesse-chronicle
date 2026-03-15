@@ -6,14 +6,14 @@
     "title": "Shanxi is start",
     "dek": "Sean Xiang was born in Jincheng, Shanxi.",
     "narrative": [
-      "Sean Xiang was born in Jincheng, Shanxi, marking the beginning of his journey."
+      "Sean Xiang was born in Jincheng, Shanxi."
     ],
     "proofPoints": [
       "Born in Jincheng, Shanxi."
     ],
     "locationId": "jincheng",
     "locationIds": ["jincheng"],
-    "mapCaption": "The journey begins in Jincheng, Shanxi.",
+    "mapCaption": "Born in Jincheng, Shanxi.",
     "mapCamera": {
       "center": [
         112.8518,
@@ -33,7 +33,7 @@
       "strengthLabel": "Source mix",
       "strength": "Working synthesis only",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Hold until direct primary documentation improves"
+      "artifact": "Awaiting primary documentation"
     }
   },
   {
@@ -41,9 +41,8 @@
     "phase": "USTC",
     "range": "1980",
     "title": "Entering USTC",
-    "dek": "In Hefei, Sean Xiang entered USTC in 1980, majoring in Physics.",
+    "dek": "Admitted to USTC in Hefei in 1980, majoring in Physics.",
     "narrative": [
-      "In Hefei, he entered the University of Science and Technology of China (USTC) in 1980, majoring in Physics.",
       "This marked the formal beginning of a highly accelerated academic and technical trajectory, laying a rigorous foundation in the sciences."
     ],
     "proofPoints": [
@@ -72,24 +71,26 @@
       "strengthLabel": "Source mix",
       "strength": "Working synthesis only",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Hold until direct primary documentation improves"
+      "artifact": "Awaiting primary documentation"
     }
   },
   {
     "id": "research-formation",
     "phase": "CUHK / PhD",
-    "range": "Graduate era",
+    "range": "Graduate era – 1997",
     "title": "A long research arc before Silicon Valley",
-    "dek": "A foundation in electrical and electronic engineering established the deep technical baseline required for enterprise security.",
+    "dek": "A Ph.D. in Electrical and Electronic Engineering from CUHK, followed by a Research Associate role at HKUST, preceded everything that followed.",
     "narrative": [
       "Sean Xiang’s trajectory did not begin with a leap into entrepreneurship, but with a rigorous academic foundation. Earning a Ph.D. in Electrical and Electronic Engineering from The Chinese University of Hong Kong, he established a deep technical baseline.",
-      "This scientific grounding proved crucial. Operating in data-at-rest security, encryption, and platform trust requires a level of engineering rigor that compounds over decades. This early research chapter explains why the later Bloombase architecture proved so resilient across multiple computing waves."
+      "After CUHK, he continued as a Research Associate at the Hong Kong University of Science and Technology (1996–1997), extending his research depth before the move to California. This scientific grounding proved crucial — the later Bloombase architecture proved resilient across multiple computing waves precisely because of this formation period."
     ],
     "proofPoints": [
-      "Ph.D. in Electrical and Electronic Engineering from The Chinese University of Hong Kong."
+      "Ph.D. in Electrical and Electronic Engineering from The Chinese University of Hong Kong (CUHK).",
+      "Research Associate, Hong Kong University of Science and Technology (HKUST), 1996–1997."
     ],
     "locationId": "hong-kong",
-    "mapCaption": "Hong Kong serves as the pivotal anchor for Sean's advanced academic formation, concluding with a Ph.D. in Electrical and Electronic Engineering.",
+    "locationIds": ["hong-kong"],
+    "mapCaption": "Ph.D. formation at The Chinese University of Hong Kong in Electrical and Electronic Engineering.",
     "mapCamera": {
       "center": [
         114.1694,
@@ -109,24 +110,25 @@
       "strengthLabel": "Source mix",
       "strength": "Third-party connective source plus timeline synthesis",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Safe for light editorial artifacts, not for hard historical claims"
+      "artifact": "Light editorial treatment only"
     }
   },
   {
     "id": "california-transition",
     "phase": "California transition",
-    "range": "Research era",
-    "title": "A transition bridging science and technology strategy",
-    "dek": "A critical transition integrating academic depth with practical execution in California.",
+    "range": "1997–1999",
+    "title": "Bridging science and technology strategy",
+    "dek": "Scientist at the Beckman Laser Institute & Medical Clinic, UC Irvine, August 1997 to December 1999.",
     "narrative": [
-      "Moving to the United States, Sean Xiang joined the Beckman Laser Institute at the University of California, Irvine as a scientist, directly applying his research background to complex technological environments.",
-      "California served as a pivotal bridge chapter. The geography and network shifted, signaling a transition from pure academia toward the institutional ecosystems of the American technology sector, setting the stage for his eventual company-building phase."
+      "From August 1997 to December 1999, Sean Xiang worked as a Scientist at the Beckman Laser Institute & Medical Clinic at UC Irvine, directly applying his research background in a U.S. institutional context.",
+      "The move from Hong Kong to California shifted the geography and the network — from academic formation toward the institutional ecosystems of the American technology sector, setting the stage for the company-building phase that followed."
     ],
     "proofPoints": [
-      "Scientist at The Beckman Laser Institute, University of California, Irvine."
+      "Scientist, Beckman Laser Institute & Medical Clinic, UC Irvine, Aug 1997 – Dec 1999."
     ],
     "locationId": "irvine",
-    "mapCaption": "The relocation to Irvine, California, signifies the critical transition from pure academia to the birthplace of global technology execution.",
+    "locationIds": ["irvine"],
+    "mapCaption": "Scientist at the Beckman Laser Institute, UC Irvine — the transition from pure academia toward company-building.",
     "mapCamera": {
       "center": [
         -118.5,
@@ -146,27 +148,28 @@
       "strengthLabel": "Source mix",
       "strength": "Third-party profile plus dossier synthesis",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Use selective context cards rather than visual overclaiming"
+      "artifact": "Selective context cards only"
     }
   },
   {
     "id": "founding-bloombase",
     "phase": "Bloombase founding",
-    "range": "Founder era",
+    "range": "2012–present",
     "title": "Bloombase is the long arc: enterprise data security built for endurance",
-    "dek": "The founding of Bloombase marked the beginning of a multi-era infrastructure build, embedding specialized security within global enterprise systems.",
+    "dek": "Co-Founder & CEO of Bloombase since January 2012 — a multi-era infrastructure build embedding specialized security within global enterprise systems.",
     "narrative": [
-      "As co-founder and CEO of Bloombase, Sean Xiang navigated the company to the center of enterprise data-at-rest security and encryption. Establishing headquarters in Redwood City placed Bloombase directly within Silicon Valley's infrastructure ecosystem.",
+      "Sean Xiang co-founded Bloombase in January 2012 and has led it as CEO ever since. Establishing headquarters in Redwood City placed Bloombase directly within Silicon Valley's infrastructure ecosystem.",
       "The location was a strategic alignment with cloud ecosystems, hardware security module vendors, and enterprise buyers who demanded uncompromising platform trust. In this highly unforgiving enterprise security market, Bloombase laid the groundwork for decades of architectural relevance."
     ],
     "proofPoints": [
-      "Company globally anchored with Silicon Valley footprint.",
+      "Co-Founder & CEO, Bloombase, January 2012 – present.",
       "2013 releases across OpenStack, EMC, and VMware demonstrate early and deep platform integration.",
       "2012 appearances in the Open Virtualization Alliance show early positioning in cloud security.",
       "2014 advisory board expansion highlights early strategic organizational growth."
     ],
     "locationId": "redwood-city",
-    "mapCaption": "Redwood City provides the strategic base from which Bloombase emerged, deeply embedded in the Silicon Valley enterprise trust ecosystem.",
+    "locationIds": ["redwood-city"],
+    "mapCaption": "Bloombase founded in Redwood City, Silicon Valley.",
     "mapCamera": {
       "center": [
         -122.05,
@@ -194,7 +197,7 @@
       "strengthLabel": "Source mix",
       "strength": "Primary company URLs now support a stronger founding and geography layer",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Ready for tighter document-style source cards, still avoid pretending to have exact founding-day paperwork"
+      "artifact": "Source cards ready"
     }
   },
   {
@@ -214,7 +217,8 @@
       "Hardware security module (HSM) integrations widened aggressively through Marvell, nCipher, and Futurex."
     ],
     "locationId": "redwood-city",
-    "mapCaption": "The center of operations remained in Silicon Valley as Bloombase accumulated major enterprise alliances and interoperability certifications.",
+    "locationIds": ["redwood-city"],
+    "mapCaption": "Enterprise validation years based in Silicon Valley.",
     "mapCamera": {
       "center": [
         -121.7,
@@ -265,7 +269,8 @@
       "Expansion actively targeted advanced regional cryptography talent."
     ],
     "locationId": "vancouver",
-    "mapCaption": "Expansion into Vancouver allowed Bloombase to tap into advanced cryptography talent and leverage a broader technology ecosystem.",
+    "locationIds": ["vancouver"],
+    "mapCaption": "Bloombase expands to Vancouver for cryptography talent and ecosystem scale.",
     "mapCamera": {
       "center": [
         -123.1207,
@@ -285,7 +290,45 @@
       "strengthLabel": "Source mix",
       "strength": "One strong public expansion profile plus chronology support",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Good for map-led storytelling, still light on direct primary artifacts"
+      "artifact": "Map-led treatment; light on direct primary artifacts"
+    }
+  },
+  {
+    "id": "shenzhen-academic",
+    "phase": "Shenzhen / academic leadership",
+    "range": "2018–2023",
+    "title": "Parallel academic chapter: Founding Dean and Institute co-founder in Shenzhen",
+    "dek": "Alongside leading Bloombase, Sean Xiang built an academic track in Shenzhen — Founding Dean of the School of Artificial Intelligence at Shenzhen Technology University, then Chair Professor and Co-founder at the X-Institute of Shenzhen.",
+    "narrative": [
+      "From January 2018 to June 2021, Sean Xiang served as Distinguished Professor and Founding Dean of the School of Artificial Intelligence at Shenzhen Technology University — a part-time institutional role that ran in parallel with his CEO duties at Bloombase.",
+      "From June 2021 to December 2023, he continued in Shenzhen as Chair Professor, Co-founder, and Executive President of the X-Institute of Shenzhen. This parallel academic arc reflects the same technical thesis driving Bloombase: that AI-era infrastructure demands deep cryptographic and security foundations."
+    ],
+    "proofPoints": [
+      "Distinguished Professor, Founding Dean of School of Artificial Intelligence, Shenzhen Technology University, Jan 2018 – Jun 2021.",
+      "Chair Professor, Co-founder & Executive President, X-Institute of Shenzhen, Jun 2021 – Dec 2023."
+    ],
+    "locationId": "shenzhen",
+    "locationIds": ["shenzhen"],
+    "mapCaption": "Shenzhen academic chapter: Founding Dean of AI at SZTech, then X-Institute co-founder.",
+    "mapCamera": {
+      "center": [
+        114.0579,
+        22.5431
+      ],
+      "zoom": 5.5,
+      "pitch": 28,
+      "bearing": 0
+    },
+    "sources": [
+      "dossier"
+    ],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "LinkedIn-confirmed institutional roles",
+      "strengthLabel": "Source mix",
+      "strength": "Direct LinkedIn profile data",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Institutional pages would strengthen this chapter"
     }
   },
   {
@@ -304,7 +347,8 @@
       "2025 strategic technology alliance with Utimaco focused exclusively on AI-era solutions."
     ],
     "locationId": "global-ai",
-    "mapCaption": "The footprint shifts globally as Bloombase integrates with cutting-edge accelerators, cloud infrastructures, and cryptography networks worldwide.",
+    "locationIds": ["global-ai"],
+    "mapCaption": "Bloombase integrates with NVIDIA, Utimaco, and global cloud infrastructure.",
     "mapCamera": {
       "center": [
         8,

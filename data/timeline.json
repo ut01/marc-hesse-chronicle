@@ -402,9 +402,35 @@
       "sortBucket": "formation"
     },
     {
+      "start_date": {
+        "year": "1996"
+      },
+      "end_date": {
+        "year": "1997"
+      },
       "text": {
-        "headline": "Beckman Laser Institute / UC Irvine",
-        "text": "Research chapter in California before the founder arc."
+        "headline": "Research Associate, HKUST",
+        "text": "Research Associate at Hong Kong University of Science and Technology, 1996–1997, following the CUHK doctorate."
+      },
+      "sourceIds": [
+        "dossier"
+      ],
+      "id": "hkust-research-associate",
+      "chapterId": "research-formation",
+      "sortBucket": "research"
+    },
+    {
+      "start_date": {
+        "year": "1997",
+        "month": "8"
+      },
+      "end_date": {
+        "year": "1999",
+        "month": "12"
+      },
+      "text": {
+        "headline": "Scientist, Beckman Laser Institute, UC Irvine",
+        "text": "Scientist at the Beckman Laser Institute & Medical Clinic, UC Irvine, Aug 1997 – Dec 1999."
       },
       "sourceIds": [
         "launch-academy",
@@ -412,8 +438,6 @@
       ],
       "id": "beckman-uc-irvine",
       "chapterId": "california-transition",
-      "dateLabel": "Undated California bridge",
-      "undated": true,
       "sortBucket": "research"
     },
     {
@@ -432,22 +456,63 @@
       "sortBucket": "research"
     },
     {
+      "start_date": {
+        "year": "2012",
+        "month": "1"
+      },
       "text": {
-        "headline": "Bloombase founding chapter becomes publicly visible",
-        "text": "The exact founding-day record remains thin, but direct Bloombase company pages and the 2013 OpenStack / EMC / VMware release trail make the earliest public company narrative materially stronger."
+        "headline": "Bloombase co-founded",
+        "text": "Sean Xiang co-founds Bloombase in January 2012 and begins his tenure as CEO, building toward the 2013 public release trail."
       },
       "sourceIds": [
         "bloombase-about",
         "bloombase-offices",
         "bloombase-news-index",
-        "dossier",
-        "timeline-v2"
+        "dossier"
       ],
       "id": "bloombase-founded",
       "chapterId": "founding-bloombase",
-      "dateLabel": "Pre-2013 public company frame",
-      "undated": true,
       "sortBucket": "founding"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "1"
+      },
+      "end_date": {
+        "year": "2021",
+        "month": "6"
+      },
+      "text": {
+        "headline": "Founding Dean, School of AI — Shenzhen Technology University",
+        "text": "Distinguished Professor and Founding Dean of the School of Artificial Intelligence at Shenzhen Technology University, January 2018 – June 2021."
+      },
+      "sourceIds": [
+        "dossier"
+      ],
+      "id": "sztech-founding-dean",
+      "chapterId": "shenzhen-academic",
+      "sortBucket": "shenzhen"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "6"
+      },
+      "end_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "Chair Professor & Executive President — X-Institute of Shenzhen",
+        "text": "Chair Professor, Co-founder, and Executive President at the X-Institute of Shenzhen, June 2021 – December 2023."
+      },
+      "sourceIds": [
+        "dossier"
+      ],
+      "id": "x-institute-shenzhen",
+      "chapterId": "shenzhen-academic",
+      "sortBucket": "shenzhen"
     }
   ]
 }

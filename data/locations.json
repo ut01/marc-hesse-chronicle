@@ -90,6 +90,21 @@
     }
   },
   {
+    "id": "shenzhen",
+    "name": "Shenzhen, China",
+    "label": "Shenzhen Technology University / X-Institute",
+    "lat": 22.5431,
+    "lon": 114.0579,
+    "summary": "Academic leadership chapter: Founding Dean of AI at SZTech (2018–2021) and co-founder of X-Institute of Shenzhen (2021–2023), running in parallel with Bloombase.",
+    "camera": {
+      "center": [
+        114.0579,
+        22.5431
+      ],
+      "zoom": 5.0
+    }
+  },
+  {
     "id": "global-ai",
     "name": "Global AI infrastructure",
     "label": "Conference and alliance layer",
