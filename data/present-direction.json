@@ -1,20 +1,20 @@
 {
   "eyebrow": "Present direction",
   "title": "Why this chronicle matters now",
-  "summary": "The point of the page is not to memorialize an old enterprise-security run. It is to argue that Sean Xiang's long build becomes newly legible in the AI-infrastructure era, where data-at-rest protection, cryptographic trust, and accelerator-era architecture have to meet again.",
+  "summary": "Eric C. Greene's research program continues to advance our understanding of genome integrity, DNA repair, and the molecular mechanisms that maintain genetic stability—fundamental questions with direct implications for cancer biology and human health.",
   "signals": [
     {
-      "label": "Long-cycle credibility",
-      "text": "The Bloombase record shows repeated interoperability and alliance milestones across more than one infrastructure generation — from Dell, Hitachi, and IBM in the mid-2010s to VMware Cloud on AWS, Azure Marketplace, and NVIDIA DPUs in the 2020s."
+      "label": "Genome Integrity Research",
+      "text": "The Greene Lab's work on DNA repair mechanisms and homologous recombination provides fundamental insights into how cells maintain genome stability, with direct relevance to understanding cancer development and potential therapeutic approaches."
     },
     {
-      "label": "Post-quantum cryptography at GTC 2024",
-      "text": "Sean Xiang participated as a panelist at NVIDIA GTC 2024, discussing AI-era cyber defense alongside executives from NVIDIA, Qrypt, and Reality Defender. Bloombase demonstrated post-quantum cryptography encryption powered by NVIDIA GPU, DPU, and Morpheus AI at the event."
+      "label": "Single-Molecule Biophysics",
+      "text": "Pioneering techniques like DNA curtains have enabled researchers worldwide to visualize molecular processes in real-time, advancing the field of single-molecule biophysics and revealing dynamics invisible to traditional biochemistry."
     },
     {
-      "label": "2025 alliance and standards membership",
-      "text": "The 2025 Utimaco alliance integrates Bloombase StoreSafe with NIST FIPS 140-2 Level 3 certified HSM key protection and OASIS KMIP-compliant key management. Bloombase also joined the PKI Consortium in November 2024, deepening its standards-level credibility."
+      "label": "Cancer Center Connections",
+      "text": "As a member of Columbia's Herbert Irving Comprehensive Cancer Center, Greene's research bridges fundamental biophysics with clinically relevant questions about genome stability and disease mechanisms."
     }
   ],
-  "sourceIds": ["nvidia-2023", "utimaco-2025", "launch-academy"]
+  "sourceIds": ["columbia-profile", "columbia-cancer-center", "research-com"]
 }

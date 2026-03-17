@@ -1,354 +1,255 @@
 [
   {
-    "id": "shanxi-birth",
-    "phase": "Shanxi",
+    "id": "early-formation",
+    "phase": "Formation",
     "range": "Early years",
-    "title": "Born in Shanxi",
-    "dek": "Sean Xiang was born in Shanxi.",
+    "title": "Academic foundations",
+    "dek": "Eric C. Greene's path began with rigorous scientific training.",
     "narrative": [],
     "proofPoints": [],
-    "locationId": "shanxi-birthplace",
-    "locationIds": ["shanxi-birthplace"],
-    "mapCaption": "Born in Shanxi.",
+    "locationId": "college-station",
+    "locationIds": ["college-station"],
+    "mapCaption": "Early academic formation.",
     "mapCamera": {
-      "center": [
-        112.8518,
-        35.4907
-      ],
+      "center": [-96.3344, 30.6280],
       "zoom": 5.0,
       "pitch": 18,
       "bearing": -10
     },
-    "sources": [
-      "dossier",
-      "timeline-v2"
-    ],
+    "sources": ["dossier", "columbia-profile"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
       "stance": "Restrained narrative",
       "strengthLabel": "Source mix",
       "strength": "Narrative chapter",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Early life chapter"
+      "artifact": "Early formation chapter"
     }
   },
   {
-    "id": "hefei-ustc",
-    "phase": "USTC",
-    "range": "1980",
-    "title": "Entering USTC",
-    "dek": "Admitted to USTC in Hefei in 1980, majoring in Physics.",
+    "id": "doctoral-research",
+    "phase": "Texas A&M",
+    "range": "Doctoral era",
+    "title": "Biochemistry doctorate: telomere biology foundations",
+    "dek": "Ph.D. in Biochemistry from Texas A&M University under Dorothy Shippen, focusing on telomere biology and establishing deep technical foundations.",
     "narrative": [
-      "This marked the formal beginning of a highly accelerated academic and technical trajectory, laying a rigorous foundation in the sciences."
+      "Eric C. Greene's trajectory began with rigorous doctoral training in biochemistry at Texas A&M University. Working under Dorothy Shippen, a pioneer in telomere biology, he established the scientific foundations that would define his career.",
+      "This doctoral period built the technical depth that later enabled his groundbreaking work in single-molecule imaging and DNA repair mechanisms."
     ],
     "proofPoints": [],
-    "locationId": "hefei",
-    "locationIds": ["hefei"],
-    "mapCaption": "Xiang entered USTC in Hefei, Anhui in 1980, majoring in Physics.",
+    "locationId": "college-station",
+    "locationIds": ["college-station"],
+    "mapCaption": "Ph.D. formation at Texas A&M University in Biochemistry under Dorothy Shippen.",
     "mapCamera": {
-      "center": [
-        117.2638,
-        31.8390
-      ],
-      "zoom": 5.0,
-      "pitch": 18,
-      "bearing": -10
-    },
-    "sources": [
-      "dossier",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Restrained narrative",
-      "strengthLabel": "Source mix",
-      "strength": "Narrative chapter",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Academic foundation chapter"
-    }
-  },
-  {
-    "id": "research-formation",
-    "phase": "CUHK",
-    "range": "Graduate era – 1997",
-    "title": "A long research arc before Silicon Valley",
-    "dek": "A Ph.D. in Electrical and Electronic Engineering from CUHK, followed by a Research Associate role at HKUST, preceded everything that followed.",
-    "narrative": [
-      "Sean Xiang’s trajectory did not begin with a leap into entrepreneurship, but with a rigorous academic foundation. Earning a Ph.D. in Electrical and Electronic Engineering from The Chinese University of Hong Kong, he established a deep technical baseline.",
-      "After CUHK, a Research Associate role at HKUST (1996–1997) extended his research depth before the move to California. This scientific grounding proved crucial — the later Bloombase architecture proved resilient across multiple computing waves precisely because of this formation period."
-    ],
-    "proofPoints": [],
-    "locationId": "hong-kong",
-    "locationIds": ["hong-kong"],
-    "mapCaption": "Ph.D. formation at The Chinese University of Hong Kong in Electrical and Electronic Engineering.",
-    "mapCamera": {
-      "center": [
-        114.2068,
-        22.4196
-      ],
+      "center": [-96.3344, 30.6280],
       "zoom": 10.5,
       "pitch": 34,
       "bearing": 6
     },
-    "sources": [
-      "launch-academy",
-      "timeline-v2"
-    ],
+    "sources": ["columbia-profile", "emedevents-profile"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
       "stance": "Public profile-backed chapter",
       "strengthLabel": "Source mix",
-      "strength": "Third-party connective source plus timeline synthesis",
+      "strength": "University profile plus timeline synthesis",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Research formation chapter"
+      "artifact": "Doctoral formation chapter"
     }
   },
   {
-    "id": "california-transition",
-    "phase": "Beckman",
-    "range": "1997–1999",
-    "title": "Bridging science and technology strategy",
-    "dek": "Scientist at the Beckman Laser Institute & Medical Clinic, UC Irvine, August 1997 to December 1999.",
+    "id": "nih-postdoc",
+    "phase": "NIH",
+    "range": "Postdoctoral training",
+    "title": "NIH postdoc: advancing toward DNA recombination research",
+    "dek": "Postdoctoral research with Kiyoshi Mizuuchi at the National Institutes of Health, Bethesda, Maryland.",
     "narrative": [
-      "The move from Hong Kong to California shifted the geography and the network — from academic formation toward the institutional ecosystems of the American technology sector, setting the stage for the company-building phase that followed."
+      "The move to the National Institutes of Health marked a transition toward the DNA recombination and genome stability research that would become central to Greene's career.",
+      "Working with Kiyoshi Mizuuchi, he developed expertise that bridged molecular biology and biophysics, setting the stage for his innovative single-molecule approaches."
     ],
     "proofPoints": [],
-    "locationId": "irvine",
-    "locationIds": ["irvine"],
-    "mapCaption": "Scientist at the Beckman Laser Institute, UC Irvine — the transition from pure academia toward company-building.",
+    "locationId": "bethesda",
+    "locationIds": ["bethesda"],
+    "mapCaption": "Postdoctoral research at NIH with Kiyoshi Mizuuchi.",
     "mapCamera": {
-      "center": [
-        -117.8443,
-        33.6405
-      ],
+      "center": [-77.0947, 38.9987],
       "zoom": 10.5,
       "pitch": 30,
       "bearing": -18
     },
-    "sources": [
-      "launch-academy",
-      "dossier"
-    ],
+    "sources": ["columbia-profile", "emedevents-profile"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "Bridge chapter with one key public profile anchor",
+      "stance": "Bridge chapter with institutional anchors",
       "strengthLabel": "Source mix",
-      "strength": "Third-party profile plus dossier synthesis",
+      "strength": "University profiles plus research synthesis",
       "artifactLabel": "Artifact readiness",
-      "artifact": "California transition chapter"
+      "artifact": "Postdoctoral transition chapter"
     }
   },
   {
-    "id": "founding-bloombase",
-    "phase": "Bloombase",
-    "range": "2012–present",
-    "title": "Bloombase is the long arc: enterprise data security built for endurance",
-    "dek": "Co-Founder & CEO of Bloombase since January 2012 — a multi-era infrastructure build embedding specialized security within global enterprise systems.",
+    "id": "columbia-faculty",
+    "phase": "Columbia",
+    "range": "Faculty appointment–present",
+    "title": "Columbia University: building a research program in genome integrity",
+    "dek": "Professor in the Department of Biochemistry and Molecular Biophysics at Columbia University, establishing the Greene Lab.",
     "narrative": [
-      "Establishing headquarters in Redwood City placed Bloombase directly within Silicon Valley's infrastructure ecosystem — a strategic alignment with cloud ecosystems, hardware security module vendors, and enterprise buyers who demanded uncompromising platform trust.",
-      "In this highly unforgiving enterprise security market, Bloombase laid the groundwork for decades of architectural relevance."
+      "Joining Columbia University's Department of Biochemistry and Molecular Biophysics, Eric C. Greene established a research program focused on genome integrity, DNA repair, and single-molecule biophysics.",
+      "His laboratory developed novel approaches to studying DNA-protein interactions, creating tools and techniques that would influence the broader field."
     ],
     "proofPoints": [
-      "2013 releases across OpenStack, EMC, and VMware demonstrate early and deep platform integration.",
-      "2012 appearances in the Open Virtualization Alliance show early positioning in cloud security.",
-      "2014 advisory board expansion highlights early strategic organizational growth."
+      "Pioneered the DNA curtains technique for high-throughput single-molecule imaging.",
+      "Published highly cited work on CRISPR-Cas9 DNA interrogation mechanisms.",
+      "Established research program studying RAD51 and homologous recombination."
     ],
-    "locationId": "redwood-city",
-    "locationIds": ["redwood-city"],
-    "mapCaption": "Bloombase founded in Redwood City, Silicon Valley.",
+    "locationId": "new-york",
+    "locationIds": ["new-york"],
+    "mapCaption": "Professor at Columbia University, New York.",
     "mapCamera": {
-      "center": [
-        -122.2364,
-        37.4852
-      ],
+      "center": [-73.9626, 40.8075],
       "zoom": 10.5,
       "pitch": 28,
       "bearing": -22
     },
-    "sources": [
-      "ova-2012",
-      "bloombase-about",
-      "bloombase-offices",
-      "slayton-2014",
-      "bloombase-news-index",
-      "openstack-2013",
-      "emc-2013",
-      "vmware-2013",
-      "dossier",
-      "timeline-v2"
-    ],
+    "sources": ["columbia-profile", "columbia-biochem", "research-com"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "Company-spine chapter",
+      "stance": "Faculty chapter",
       "strengthLabel": "Source mix",
-      "strength": "Primary company URLs now support a stronger founding and geography layer",
+      "strength": "Primary university URLs support faculty position",
       "artifactLabel": "Artifact readiness",
       "artifact": "Source cards ready"
     }
   },
   {
-    "id": "enterprise-validation",
-    "phase": "Expand",
-    "range": "2014–2020",
-    "title": "Validation accumulates through alliances, certifications, and interoperability",
-    "dek": "A dense network of certifications and partnerships established Bloombase as a universally trusted layer in enterprise infrastructure.",
+    "id": "dna-curtains",
+    "phase": "Innovation",
+    "range": "2000s–2010s",
+    "title": "DNA curtains: pioneering single-molecule visualization",
+    "dek": "Development of the DNA curtains technique revolutionized single-molecule imaging of DNA-protein interactions.",
     "narrative": [
-      "From 2014 to 2020, Bloombase methodically expanded its interoperability map. Announcements cataloged deep technical integration with Dell, Hitachi, HP ESKM, Thales ASAP, IBM, VMware Cloud on AWS, and Microsoft Azure Marketplace.",
-      "These milestones represent more than a collection of alliances; they show a clear accumulation pattern of trust. Across changing infrastructure regimes, Bloombase consistently positioned itself at the nexus where data security and performance are non-negotiable."
+      "The DNA curtains technique, first introduced by Eric C. Greene and colleagues at Columbia, combined supported lipid bilayers, nanofabricated diffusion barriers, and total internal reflection fluorescence microscopy to align DNA molecules for high-throughput single-molecule imaging.",
+      "This innovation enabled researchers to observe individual protein molecules interacting with DNA in real-time, revealing dynamics that bulk biochemistry could not capture."
     ],
     "proofPoints": [
-      "2013-2014: Early validation established with OpenStack, EMC, VMware, Dell, and Hitachi.",
-      "2015-2017: Certifications with HP, Thales, Ultra Electronics, HPE, IBM, ATTO, and Huawei deepen custody and storage trust.",
-      "2018-2020: Public cloud scale confirmed through VMware Cloud on AWS and Microsoft Azure Marketplace.",
-      "Hardware security module (HSM) integrations widened aggressively through Marvell, nCipher, and Futurex."
+      "DNA curtains technique widely adopted in single-molecule biophysics community.",
+      "Method enabled visualization of hundreds to thousands of DNA-binding proteins simultaneously.",
+      "Technique extended to single-stranded DNA, expanding experimental capabilities."
     ],
-    "locationId": "redwood-city",
-    "locationIds": ["redwood-city"],
-    "mapCaption": "Enterprise validation years based in Silicon Valley.",
+    "locationId": "new-york",
+    "locationIds": ["new-york"],
+    "mapCaption": "DNA curtains innovation at Columbia University.",
     "mapCamera": {
-      "center": [
-        -122.2364,
-        37.4852
-      ],
+      "center": [-73.9626, 40.8075],
       "zoom": 9.0,
       "pitch": 44,
       "bearing": -8
     },
-    "sources": [
-      "openstack-2013",
-      "emc-2013",
-      "vmware-2013",
-      "vmware-2014",
-      "hitachi-2014",
-      "hp-2015",
-      "thales-2015",
-      "hpe-2015",
-      "ibm-2017",
-      "huawei-2017",
-      "vmware-aws-2018",
-      "azure-2019",
-      "marvell-2019",
-      "ncipher-2019",
-      "futurex-2020"
-    ],
+    "sources": ["wikipedia-dna-curtains", "jove-dna-curtains", "research-com"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "Strongest historical chapter",
+      "stance": "Strongest technical innovation chapter",
       "strengthLabel": "Source mix",
-      "strength": "Dense first-party alliance and certification trail",
+      "strength": "Multiple independent sources document the technique",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Ready for richer document-style artifact cards"
+      "artifact": "Ready for technical artifact cards"
     }
   },
   {
-    "id": "geographic-expansion",
-    "phase": "Vancouver",
-    "range": "2018 onward",
-    "title": "The geography widens: strategic expansion to Canada",
-    "dek": "Expansion beyond Silicon Valley emphasized global talent, advanced cryptography capability, and strategic ecosystem scale.",
+    "id": "crispr-research",
+    "phase": "CRISPR",
+    "range": "2014",
+    "title": "CRISPR-Cas9 DNA interrogation: highly cited breakthrough",
+    "dek": "Groundbreaking research on how CRISPR-Cas9 searches for and recognizes target DNA sequences.",
     "narrative": [
-      "Recognizing the increasing global demand for rigorous data protection, Bloombase strategically expanded its operations into Canada. As detailed in a 2018 Launch Academy profile, Vancouver provided a strong talent pool, advanced cryptography resources, and a supportive technology ecosystem.",
-      "This geographic shift marked a transition from a Silicon Valley-centric operation to a mature, international engineering organization structured for scale."
+      "Greene's 2014 publication on CRISPR-Cas9 DNA interrogation mechanisms became one of the most highly cited papers in the field, with over 1100 citations.",
+      "The work revealed how the Cas9 enzyme uses RNA-DNA base-pairing to locate target sequences, providing fundamental insights into CRISPR genome editing technology."
     ],
     "proofPoints": [
-      "Vancouver office launch captured in 2018 Launch Academy profile."
+      "1100+ citations demonstrate major impact on the field.",
+      "Research published during critical period of CRISPR technology development.",
+      "Work contributed to understanding of genome editing mechanisms."
     ],
-    "locationId": "vancouver",
-    "locationIds": ["vancouver"],
-    "mapCaption": "Bloombase expands to Vancouver for cryptography talent and ecosystem scale.",
+    "locationId": "new-york",
+    "locationIds": ["new-york"],
+    "mapCaption": "CRISPR-Cas9 research at Columbia.",
     "mapCamera": {
-      "center": [
-        -123.1207,
-        49.2827
-      ],
+      "center": [-73.9626, 40.8075],
       "zoom": 5.25,
       "pitch": 32,
       "bearing": 14
     },
-    "sources": [
-      "launch-academy",
-      "timeline-v2"
-    ],
+    "sources": ["pubmed-crispr", "research-com"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "Selective expansion chapter",
+      "stance": "High-impact publication chapter",
       "strengthLabel": "Source mix",
-      "strength": "One strong public expansion profile plus chronology support",
+      "strength": "Direct publication record with citation metrics",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Geographic expansion chapter"
+      "artifact": "Publication milestone chapter"
     }
   },
   {
-    "id": "shenzhen-academic",
-    "phase": "Shenzhen",
-    "range": "2018–2023",
-    "title": "Parallel academic chapter: Founding Dean and Institute co-founder in Shenzhen",
-    "dek": "Alongside leading Bloombase, Sean Xiang built an academic track in Shenzhen — Founding Dean of the School of Artificial Intelligence at Shenzhen Technology University, then Chair Professor and Co-founder at the X-Institute of Shenzhen.",
+    "id": "rad51-recombination",
+    "phase": "DNA Repair",
+    "range": "2010s–present",
+    "title": "RAD51 and homologous recombination: genome stability research",
+    "dek": "Ongoing research program studying RAD51 recombinase family proteins and DNA repair mechanisms critical for genome integrity.",
     "narrative": [
-      "Both roles were part-time and ran in parallel with his CEO duties at Bloombase. This parallel academic arc reflects the same technical thesis: that AI-era infrastructure demands deep cryptographic and security foundations."
+      "Greene's laboratory has made sustained contributions to understanding homologous recombination, the DNA repair pathway essential for maintaining genome stability.",
+      "Research on RAD51 and related proteins has revealed fundamental mechanisms of DNA repair with implications for cancer biology and genome integrity."
     ],
-    "proofPoints": [],
-    "locationId": "shenzhen",
-    "locationIds": ["shenzhen"],
-    "mapCaption": "Shenzhen academic chapter: Founding Dean of AI at SZTech, then X-Institute co-founder.",
+    "proofPoints": [
+      "Multiple publications on RAD51 paralogs and recombination mechanisms.",
+      "Research connects to cancer biology through genome stability pathways.",
+      "Work spans from fundamental mechanisms to disease implications."
+    ],
+    "locationId": "new-york",
+    "locationIds": ["new-york"],
+    "mapCaption": "Ongoing DNA repair research at Columbia.",
     "mapCamera": {
-      "center": [
-        114.0579,
-        22.5431
-      ],
+      "center": [-73.9626, 40.8075],
       "zoom": 5.5,
       "pitch": 28,
       "bearing": 0
     },
-    "sources": [
-      "dossier"
-    ],
+    "sources": ["research-com", "columbia-biochem"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "LinkedIn-confirmed institutional roles",
+      "stance": "Sustained research program",
       "strengthLabel": "Source mix",
-      "strength": "Direct LinkedIn profile data",
+      "strength": "Research profile and publication record",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Shenzhen academic chapter"
+      "artifact": "Research program chapter"
     }
   },
   {
-    "id": "ai-era",
-    "phase": "AI era",
-    "range": "2023–now",
-    "title": "The current chapter is not nostalgia — it is AI infrastructure",
-    "dek": "Rebuilding enterprise security primitives for the AI-infrastructure era: post-quantum cryptography, NVIDIA accelerators, and a new standards-layer presence.",
+    "id": "cancer-center",
+    "phase": "Cancer Research",
+    "range": "Present",
+    "title": "Cancer biology connections: genome integrity and disease",
+    "dek": "Member of Herbert Irving Comprehensive Cancer Center, connecting DNA repair research to cancer biology.",
     "narrative": [
-      "In 2023, Bloombase rebuilt data-at-rest encryption to run natively on NVIDIA DPUs and GPUs — a technical argument that security must operate at the accelerator level to avoid becoming a bottleneck in AI data pipelines. At NVIDIA GTC 2024, Sean Xiang served as a panelist on AI-era cyber defense alongside executives from NVIDIA, Qrypt, and Reality Defender; the Bloombase booth demonstrated post-quantum cryptography (PQC) encryption powered by NVIDIA GPU, DPU, and Morpheus AI.",
-      "In 2025, a strategic alliance with Utimaco delivered integrated NIST FIPS 140-2 Level 3 certified HSM key protection and OASIS KMIP-compliant key management for AI-era workloads. Bloombase also joined the PKI Consortium in November 2024, deepening its participation in cryptographic standards infrastructure."
+      "As a member of Columbia's Herbert Irving Comprehensive Cancer Center, Greene's research on genome stability and DNA repair mechanisms connects directly to understanding cancer development and potential therapeutic approaches.",
+      "The work bridges fundamental biophysics with clinically relevant questions about how cells maintain genome integrity."
     ],
-    "proofPoints": [
-      "2024: Entrust partnership integrating StoreSafe with nShield Connect HSMs."
-    ],
-    "locationId": "global-ai",
-    "locationIds": ["global-ai"],
-    "mapCaption": "Bloombase integrates with NVIDIA, Utimaco, and global cloud infrastructure.",
+    "proofPoints": [],
+    "locationId": "new-york",
+    "locationIds": ["new-york"],
+    "mapCaption": "Cancer center research connections at Columbia.",
     "mapCamera": {
-      "center": [
-        8,
-        24
-      ],
+      "center": [-73.9626, 40.8075],
       "zoom": 1.35,
       "pitch": 10,
       "bearing": 0
     },
-    "sources": [
-      "nvidia-2023",
-      "utimaco-2025",
-      "dossier"
-    ],
+    "sources": ["columbia-cancer-center", "research-com"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
       "stance": "Present-tense relevance chapter",
       "strengthLabel": "Source mix",
-      "strength": "Direct Bloombase sources with a clear AI-era frame",
+      "strength": "Institutional affiliation with research focus",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Best candidate for stronger media / announcement treatment"
+      "artifact": "Current research connections"
     }
   }
 ]

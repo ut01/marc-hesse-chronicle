@@ -1,6 +1,6 @@
-# Sean Xiang Chronicle — SOTA Design Review
+# Eric C. Greene Chronicle — SOTA Design Review
 
-Goal: build a premium founder-chronicle page by borrowing proven patterns from open-source timeline, map-story, and editorial storytelling systems instead of inventing a bespoke interaction model too early.
+Goal: build a premium research-chronicle page by borrowing proven patterns from open-source timeline, map-story, and editorial storytelling systems instead of inventing a bespoke interaction model too early.
 
 ## 1) Top 5 open-source references
 
@@ -17,8 +17,8 @@ Goal: build a premium founder-chronicle page by borrowing proven patterns from o
 - Demo: https://storymap.knightlab.com/
 - Why it matters:
   - Canonical open-source "map + narrative card" reference.
-  - Useful for the life-journey / geography layer: place, caption, image, transition.
-  - Especially relevant because Sean's biography has clear location chapters (China/Hong Kong -> Irvine -> Silicon Valley -> Canada / global ecosystem).
+  - Useful for the research-journey / geography layer: place, caption, image, transition.
+  - Especially relevant because Eric's biography has clear location chapters (Texas → Maryland → New York).
 
 ### 3. Odyssey.js
 - Repo: https://github.com/CartoDB/odyssey.js
@@ -41,7 +41,7 @@ Goal: build a premium founder-chronicle page by borrowing proven patterns from o
 - Why it matters:
   - Open-source multimedia storytelling system with a more museum / magazine sensibility.
   - Valuable less for direct adoption and more for structure: chaptering, full-bleed media, pacing, transitions, and premium editorial framing.
-  - Good reminder that the site should feel like a curated exhibition, not a startup landing page with a timeline bolted on.
+  - Good reminder that the site should feel like a curated exhibition, not a generic academic CV with a timeline bolted on.
 
 ## 2) What we should directly adopt vs avoid
 
@@ -53,7 +53,7 @@ Goal: build a premium founder-chronicle page by borrowing proven patterns from o
 
 - From StoryMapJS:
   - A chaptered geography layer.
-  - One location per life phase, with concise explanatory copy.
+  - One location per research phase, with concise explanatory copy.
   - Camera transitions that move only when the story changes.
 
 - From Odyssey.js:
@@ -63,41 +63,42 @@ Goal: build a premium founder-chronicle page by borrowing proven patterns from o
 
 - From vis-timeline:
   - Secondary "archive/reference" mode for power users.
-  - Grouping milestones into phases: Education, Research, Founder, Ecosystem, AI Era.
+  - Grouping milestones into phases: Formation, Doctoral, Postdoc, Faculty, Innovations, Publications.
   - Range bars for long eras, points for pivotal moments.
 
 - From Pageflow:
   - Full-bleed chapter breaks.
-  - Strong rhythm: intro -> formation -> research -> company building -> ecosystem proof -> present/future.
+  - Strong rhythm: intro -> formation -> doctoral -> postdoc -> faculty -> innovations -> present.
   - High production-value feeling through spacing, restraint, and media hierarchy.
 
 ### Avoid
 - Do not ship raw TimelineJS3 or StoryMapJS embeds as the main experience.
-  - They are useful references, but the default styling feels educational / newsroom / template-like, not premium-founder-editorial.
+  - They are useful references, but the default styling feels educational / newsroom / template-like, not premium-research-editorial.
 - Do not over-animate the map.
   - Constant camera movement makes biography pages feel gimmicky.
-- Do not make every partnership logo a milestone.
-  - Too many enterprise badges turns the story into a press-release wall.
+- Do not make every publication a milestone.
+  - Too many papers turns the story into a CV dump.
 - Do not force users into a single giant scrollytelling path with no quick navigation.
-  - Founder pages also need a skimmable mode.
+  - Research pages also need a skimmable mode.
 - Do not use glossy "toy" sci-fi styling without evidence.
-  - The current prototype has energy, but the final version should feel more archival, elegant, and source-backed.
+  - The final version should feel more archival, elegant, and source-backed.
 
-## 3) Recommended information architecture for the Sean Xiang page
+## 3) Recommended information architecture for the Eric C. Greene page
 
 ### A. Hero / thesis
 - Name, one-sentence thesis, portrait or restrained abstract visual.
-- Short framing line: early technical prodigy -> research -> enterprise security founder -> AI infrastructure era.
+- Short framing line: doctoral biochemistry training -> NIH postdoc -> Columbia professor -> single-molecule imaging pioneer.
 - 3-5 proof chips only, not 10+.
 
 ### B. At-a-glance chronology
 - Compact horizontal phase rail:
   - Early formation
-  - CUHK / PhD
-  - Beckman / UC Irvine
-  - Bloombase founding
-  - Enterprise validation years
-  - AI-era repositioning
+  - Texas A&M / PhD
+  - NIH / Postdoc
+  - Columbia faculty
+  - DNA curtains innovation
+  - CRISPR research
+  - Current research
 - Clicking a phase jumps to that chapter.
 
 ### C. Main narrative chapters
@@ -106,30 +107,31 @@ Each chapter should have:
 - chapter title
 - 120-220 words of narrative
 - 1-3 key proof points
-- optional image / logo / source link
+- optional image / diagram / publication link
 
 Recommended chapters:
-1. Early acceleration
-2. Research and academic formation
-3. California transition
-4. Founding Bloombase
-5. Enterprise trust and ecosystem validation
-6. Cloud / platform expansion
-7. AI infrastructure chapter
-8. Present direction / why it matters now
+1. Early academic formation
+2. Doctoral research (Texas A&M, telomere biology)
+3. NIH postdoctoral training
+4. Columbia faculty appointment
+5. DNA curtains innovation
+6. CRISPR-Cas9 research
+7. RAD51 and genome stability
+8. Present direction / cancer biology connections
 
 ### D. Geography module
 - A separate but integrated map section.
-- 4-6 key place markers only.
+- 3 key place markers only.
 - Each place corresponds to a chapter, not every event.
-- Map should answer: how did the journey move across institutions and markets?
+- Map should answer: how did the research journey move across institutions?
 
-### E. Validation / ecosystem section
-- Curated partner wall with context.
-- Better structure than a raw logo grid:
-  - Cloud platforms
-  - Security / HSM partners
-  - Enterprise ecosystem validation
+### E. Validation / research impact section
+- Curated institutional affiliations and research metrics.
+- Better structure than a raw publication list:
+  - Academic institutions
+  - Technical innovations
+  - High-impact publications
+  - Research citations
 - Keep it evidence-driven and selective.
 
 ### F. Archive / sources
@@ -138,7 +140,7 @@ Recommended chapters:
 
 ## 4) Visual / UX principles to make it feel premium, not toy
 
-- Favor editorial elegance over startup-dashboard gloss.
+- Favor editorial elegance over academic-dashboard gloss.
   - More off-white, charcoal, muted blue/green accents.
   - Less neon, fewer decorative orbit effects.
 - Build around typography first.
@@ -152,7 +154,7 @@ Recommended chapters:
 - Use maps as orientation, not spectacle.
   - Clean basemap, limited markers, subtle routes.
 - Prefer real artifacts over abstract decoration.
-  - Photos, scans, conference visuals, article snippets, logos, citations.
+  - Publication figures, technique diagrams, microscopy images, citations.
 - Maintain dual reading modes:
   - skim mode for busy visitors
   - deep mode for readers who want the full chronology
@@ -173,7 +175,7 @@ Build this now as a lightweight custom site, not as an iframe composition of thi
 - Timeline rendering:
   - custom chapter timeline for the main narrative
   - optional vis-timeline secondary view for "full chronology / archive" mode
-- Content source: structured JSON or YAML in-repo for milestones, chapters, locations, logos, and sources
+- Content source: structured JSON or YAML in-repo for milestones, chapters, locations, publications, and sources
 - Deployment: static build on GitHub Pages / Vercel / Netlify
 
 ### Why this stack now

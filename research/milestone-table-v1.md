@@ -1,22 +1,19 @@
-# Sean Xiang Milestone Table v1
+# Eric C. Greene Milestone Table v1
 
 | Approx Date | Milestone | Location | Narrative Role | Evidence Status | Notes |
 |---|---|---|---|---|---|
-| Unknown | Ph.D. in Electrical and Electronic Engineering, CUHK | Hong Kong | Formation / deep technical base | Supported by public third-party mention | Need exact years |
-| Unknown | Scientist at Beckman Laser Institute, UCI | Irvine, California | Research chapter before startup | Supported by Launch Academy page | Need exact years |
-| Unknown | Co-founds Bloombase | Redwood City / Silicon Valley | Founder origin | Supported, exact founding year needed | Need best public source |
-| 2000s-2010s | Bloombase builds enterprise data-at-rest security position | Silicon Valley / enterprise security ecosystem | Long-horizon operating thesis | Supported by company site and partner/news pages | Needs dated product/partner milestones |
-| 2014 | Hitachi alliance / certification related milestone | enterprise ecosystem | Validation / enterprise trust | Visible on Bloombase site | Need exact phrasing and page capture |
-| 2015 | HPE / Thales / security ecosystem milestones | enterprise ecosystem | Validation / expansion | Visible on Bloombase site | Need timeline extraction |
-| 2017 | IBM security intelligence validation milestone | enterprise ecosystem | Validation / platform maturity | Visible on Bloombase site | Need exact date and text |
-| 2018 | Launch Academy / Maple / Canada expansion story | Canada / Vancouver context | Geographic expansion | Public Launch Academy article | Strong source |
-| 2019 | Microsoft Azure / Marvell / cloud-security-related public milestones | global enterprise ecosystem | Cloud-era continuation | Visible on Bloombase site / public pages | Need structured extraction |
-| 2023 | Rebuilding Bloombase with NVIDIA DPUs and GPUs | AI/security infrastructure | Reinvention into AI era | Public Bloombase / Medium article | Strong source |
-| 2024 | Continued conference presence (e.g. NVIDIA GTC / CYBERSEC) | San Jose / Taipei / etc. | Public relevance / ecosystem visibility | Public site assets | Need precise dated links |
-| 2025 | Bloombase and Utimaco technology alliance | security ecosystem | Current relevance / strategic alliance | Public Bloombase news item | Strong source |
+| Doctoral era | Ph.D. in Biochemistry, Texas A&M University | College Station, Texas | Formation / deep scientific base | Supported by Columbia profile | Worked under Dorothy Shippen on telomere biology |
+| Postdoc era | Postdoctoral research at NIH | Bethesda, Maryland | Research chapter before faculty | Supported by Columbia profile | Worked with Kiyoshi Mizuuchi |
+| Faculty appointment | Joins Columbia University as Professor | New York, New York | Faculty origin / lab establishment | Supported by university profiles | Department of Biochemistry and Molecular Biophysics |
+| 2000s-2010s | Develops DNA curtains technique | New York, New York | Technical innovation / methodology | Supported by Wikipedia, JoVE, publications | Pioneering single-molecule imaging method |
+| 2014 | CRISPR-Cas9 DNA interrogation publication | New York, New York | High-impact research milestone | PubMed record with 1100+ citations | Fundamental CRISPR mechanism research |
+| 2010s-present | RAD51 and homologous recombination research | New York, New York | Sustained research program | Research.com profile, publications | Genome stability and DNA repair focus |
+| Present | Herbert Irving Comprehensive Cancer Center member | New York, New York | Cancer biology connections | Columbia Cancer Center profile | Bridging fundamental research to disease |
+| Present | Greene Lab ongoing research | New York, New York | Current research program | Lab website, university profiles | Genome integrity and single-molecule biophysics |
 
 ## Priority next research pass
-1. Get exact dates for early life / founding
-2. Extract all dated Bloombase news items into structured CSV/JSON
-3. Map each dated item to a location
-4. Add visual asset suggestions per milestone
+1. Get exact dates for faculty appointment and major publications
+2. Extract key publications into structured timeline
+3. Map research milestones to specific years where possible
+4. Add visual asset suggestions per milestone (publication figures, technique diagrams)
+5. Gather conference presentations and invited lectures

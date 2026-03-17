@@ -2,49 +2,25 @@
   {
     "id": "profile-source",
     "label": "Profile source",
-    "description": "Third-party profile or expansion story that connects multiple chapters of the biography.",
+    "description": "University or institutional profile documenting academic position and research focus.",
     "tone": "context"
   },
   {
-    "id": "alliance-announcement",
-    "label": "Alliance announcement",
-    "description": "Direct company announcement marking interoperability, partnership, or ecosystem validation.",
-    "tone": "validation"
+    "id": "publication",
+    "label": "Publication",
+    "description": "Peer-reviewed research publication documenting scientific contributions.",
+    "tone": "primary"
   },
   {
-    "id": "platform-proof",
-    "label": "Platform proof",
-    "description": "A launch, listing, or integration that shows distribution or infrastructure relevance.",
+    "id": "technique-documentation",
+    "label": "Technique documentation",
+    "description": "Documentation of methodological innovations and technical contributions.",
     "tone": "evidence"
   },
   {
-    "id": "ai-positioning",
-    "label": "AI positioning",
-    "description": "A source that reframes Bloombase for accelerated computing, data pipelines, or AI-era security.",
-    "tone": "present"
-  },
-  {
-    "id": "primary-announcement",
-    "label": "Primary announcement",
-    "description": "A dated first-party release suitable for stronger editorial treatment because it is direct and specific.",
-    "tone": "primary"
-  },
-  {
-    "id": "founding-proof",
-    "label": "Founding proof",
-    "description": "An early first-party release that makes the opening public company narrative more concrete than a generic founding claim.",
-    "tone": "primary"
-  },
-  {
-    "id": "geography-proof",
-    "label": "Geography proof",
-    "description": "A source-backed artifact that turns location and office footprint into narrative evidence instead of decorative mapping.",
-    "tone": "primary"
-  },
-  {
-    "id": "ecosystem-visibility",
-    "label": "Ecosystem visibility",
-    "description": "A grouped artifact for conference, platform, and alliance signals that keep the present-tense chapter grounded in dated sources.",
+    "id": "research-program",
+    "label": "Research program",
+    "description": "Ongoing research program with sustained contributions to a field.",
     "tone": "present"
   }
 ]

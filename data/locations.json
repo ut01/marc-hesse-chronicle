@@ -1,123 +1,38 @@
 [
   {
-    "id": "shanxi-birthplace",
-    "name": "Shanxi",
-    "label": "Early years / Birthplace",
-    "lat": 35.4907,
-    "lon": 112.8518,
-    "summary": "Sean's birthplace in Shanxi.",
+    "id": "college-station",
+    "name": "College Station, Texas",
+    "label": "Texas A&M University / Doctoral formation",
+    "lat": 30.6280,
+    "lon": -96.3344,
+    "summary": "Ph.D. in Biochemistry under Dorothy Shippen, focusing on telomere biology.",
     "camera": {
-      "center": [
-        112.8518,
-        35.4907
-      ],
-      "zoom": 5.0
-    }
-  },
-  {
-    "id": "hefei",
-    "name": "Hefei, Anhui",
-    "label": "University of Science and Technology of China (USTC)",
-    "lat": 31.8390,
-    "lon": 117.2638,
-    "summary": "Entered USTC at 16 years old. This is the opening mythic milestone for the story.",
-    "camera": {
-      "center": [
-        117.2638,
-        31.8390
-      ],
-      "zoom": 5.0
-    }
-  },
-  {
-    "id": "hong-kong",
-    "name": "Hong Kong",
-    "label": "CUHK / doctoral formation",
-    "lat": 22.4196,
-    "lon": 114.2068,
-    "summary": "The strongest public anchor of the academic chapter: Ph.D. formation at The Chinese University of Hong Kong.",
-    "camera": {
-      "center": [
-        114.2068,
-        22.4196
-      ],
+      "center": [-96.3344, 30.6280],
       "zoom": 9.5
     }
   },
   {
-    "id": "irvine",
-    "name": "Irvine, California",
-    "label": "Beckman Laser Institute / UC Irvine",
-    "lat": 33.6405,
-    "lon": -117.8443,
-    "summary": "Research bridge chapter in California before the founder arc takes over.",
+    "id": "bethesda",
+    "name": "Bethesda, Maryland",
+    "label": "National Institutes of Health / Postdoctoral research",
+    "lat": 38.9987,
+    "lon": -77.0947,
+    "summary": "Postdoctoral research with Kiyoshi Mizuuchi at NIH, advancing toward DNA recombination studies.",
     "camera": {
-      "center": [
-        -117.8443,
-        33.6405
-      ],
+      "center": [-77.0947, 38.9987],
       "zoom": 9.5
     }
   },
   {
-    "id": "redwood-city",
-    "name": "Redwood City, California",
-    "label": "Bloombase / Silicon Valley",
-    "lat": 37.4852,
-    "lon": -122.2364,
-    "summary": "The company chapter and center of the enterprise-security build, now directly reinforced by Bloombase's own worldwide offices page.",
+    "id": "new-york",
+    "name": "New York, New York",
+    "label": "Columbia University / Faculty position",
+    "lat": 40.8075,
+    "lon": -73.9626,
+    "summary": "Professor in the Department of Biochemistry and Molecular Biophysics, establishing the Greene Lab and pioneering single-molecule imaging techniques.",
     "camera": {
-      "center": [
-        -122.2364,
-        37.4852
-      ],
+      "center": [-73.9626, 40.8075],
       "zoom": 9.5
-    }
-  },
-  {
-    "id": "vancouver",
-    "name": "Vancouver, Canada",
-    "label": "Bloombase Canada / expansion chapter",
-    "lat": 49.2827,
-    "lon": -123.1207,
-    "summary": "Bloombase's expansion to Vancouver, targeting advanced cryptography talent and a broader technology ecosystem.",
-    "camera": {
-      "center": [
-        -123.1207,
-        49.2827
-      ],
-      "zoom": 4.7
-    }
-  },
-  {
-    "id": "shenzhen",
-    "name": "Shenzhen, China",
-    "label": "Shenzhen Technology University / X-Institute",
-    "lat": 22.5431,
-    "lon": 114.0579,
-    "summary": "Academic leadership chapter: Founding Dean of AI at SZTech (2018–2021) and co-founder of X-Institute of Shenzhen (2021–2023), running in parallel with Bloombase.",
-    "camera": {
-      "center": [
-        114.0579,
-        22.5431
-      ],
-      "zoom": 5.0
-    }
-  },
-  {
-    "id": "global-ai",
-    "name": "Global AI infrastructure",
-    "label": "Conference and alliance layer",
-    "distributed": true,
-    "lat": 37.7749,
-    "lon": -122.4194,
-    "summary": "The current chapter is distributed across cloud, accelerator, and security ecosystems rather than one city.",
-    "camera": {
-      "center": [
-        -122.4194,
-        37.7749
-      ],
-      "zoom": 1.15
     }
   }
 ]

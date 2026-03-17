@@ -1,25 +1,27 @@
-# Sean Xiang Milestone Table v2
+# Eric C. Greene Milestone Table v2
 
 | Date | Milestone | Location | Narrative Role | Source |
 |---|---|---|---|---|
-| Unknown | Ph.D. in Electrical and Electronic Engineering, The Chinese University of Hong Kong (CUHK) | Hong Kong | Technical formation / research depth | Launch Academy profile summary |
-| Unknown | Scientist at Beckman Laser Institute, University of California, Irvine | Irvine, California | Pre-founder research chapter | Launch Academy profile summary |
-| Unknown | Co-founds Bloombase in the Silicon Valley / Redwood City context | Redwood City, California | Founder origin | Bloombase / third-party company references |
-| 2014-01-22 | Bloombase joins the VMware Technology Alliance Partner Program | Silicon Valley / enterprise infrastructure ecosystem | Enterprise validation / platform relevance | https://www.bloombase.com/news_and_events/20140122-1.html |
-| 2014-11-18 | Bloombase joins Hitachi Data Systems’ Technology Alliance Program; StoreSafe certified | Enterprise storage ecosystem | Validation / interoperability / trust | https://www.bloombase.com/news_and_events/20141118-1.html |
-| 2015-09-01 | Bloombase StoreSafe certified interoperable with HP Enterprise Secure Key Manager (ESKM) | Enterprise security ecosystem | Security validation | https://www.bloombase.com/news_and_events/20150901-1.html |
-| 2015-11-02 | Bloombase joins Thales’ ASAP alliance for cloud and big data encryption applications | Cloud / big data security ecosystem | Expansion into cloud-era security narrative | https://www.bloombase.com/news_and_events/20151102-1.html |
-| 2015-12-03 | Bloombase achieves HPE Helion Ready and HPE Security ArcSight certification | HPE ecosystem | Cloud / security credibility | https://www.bloombase.com/news_and_events/20151203-1.html |
-| 2017-03-20 | Bloombase StoreSafe receives IBM Ready for Security Intelligence validation | IBM ecosystem | Mature enterprise signal | https://www.bloombase.com/news_and_events/20170320-1.html |
-| 2018-07-09 | Bloombase announces StoreSafe for VMware Cloud on AWS | Cloud infrastructure ecosystem | Cloud transition milestone | https://www.bloombase.com/news_and_events/20180709-1.html |
-| 2018-08-27 | Public Canada / Maple expansion story through Launch Academy | Canada / Vancouver context | Geographic expansion | https://www.launchacademy.ca/new-start-up-visa-maple-company-bloombase-has-landed/ |
-| 2019-01-22 | Bloombase StoreSafe becomes available in the Microsoft Azure Marketplace | Azure / cloud ecosystem | Public cloud distribution milestone | https://www.bloombase.com/news_and_events/20190122-1.html |
-| 2019-10-21 | Bloombase and nCipher collaborate to enhance data-at-rest protection in the cloud | Enterprise cloud security ecosystem | Strategic alliance | https://www.bloombase.com/news_and_events/20191021-1.html |
-| 2020-02-18 | Futurex and Bloombase offer highest level of security for data-at-rest | Enterprise security ecosystem | Cryptographic trust / partner expansion | https://www.bloombase.com/news_and_events/20200218-1.html |
-| 2023 | Rebuilding Bloombase Data-at-Rest Security with NVIDIA DPUs and GPUs | RSA / NVIDIA / AI infrastructure context | AI-era reinvention narrative | https://www.bloombase.com/blog/rebuilding-bloombase-data-at-rest-security-with-nvidia-dpus-and-gpus/ |
-| 2025-04-29 | Bloombase and Utimaco announce technology alliance to deliver enhanced data security solutions for the AI era | AI-era data security ecosystem | Current relevance / strategic momentum | visible on Bloombase home/news listing |
+| Doctoral era | Ph.D. in Biochemistry, Texas A&M University (Dorothy Shippen lab) | College Station, Texas | Technical formation / research depth | Columbia University profile |
+| Postdoc era | Postdoctoral research at National Institutes of Health (Kiyoshi Mizuuchi lab) | Bethesda, Maryland | Pre-faculty research chapter | Columbia University profile |
+| Faculty appointment | Professor, Department of Biochemistry and Molecular Biophysics, Columbia University | New York, New York | Faculty origin / Greene Lab establishment | Columbia University profiles |
+| 2000s-2010s | DNA curtains technique development | New York, New York | Technical innovation / single-molecule imaging | Wikipedia DNA curtain entry, JoVE publication |
+| 2012 | Single-stranded DNA curtains publication | New York, New York | Methodological advancement | Scientific publications |
+| 2014 | CRISPR-Cas9 DNA interrogation publication | New York, New York | High-impact research (1100+ citations) | https://pubmed.ncbi.nlm.nih.gov/24476820/ |
+| 2015 | Base triplet stepping by Rad51/RecA family | New York, New York | DNA recombination mechanisms | Science publication |
+| 2010s-present | RAD51 paralogs and homologous recombination research | New York, New York | Sustained research program | Research.com profile, multiple publications |
+| Present | Herbert Irving Comprehensive Cancer Center member | New York, New York | Cancer biology research connections | http://www.cancer.columbia.edu/profile/eric-c-greene-phd |
+| Present | Greene Lab ongoing research program | New York, New York | Current research direction | http://www.thegreenelab.com |
 
 ## Notes
-- Several early academic and founding dates still need exact year confirmation.
-- 2025-04-29 item appears on the Bloombase home/news listing and should be captured from the site as a current headline milestone.
-- This table is now good enough to drive a first real timeline implementation.
+- Several publication dates need exact confirmation from PubMed/publication records.
+- Faculty appointment year needs verification from Columbia records.
+- This table is now good enough to drive a first real timeline implementation for the research chronicle.
+- Additional publications and conference presentations can be added as they are discovered.
+
+## Key Research Areas (from Research.com)
+- DNA repair and homologous recombination
+- Single-molecule biophysics
+- CRISPR-Cas9 mechanisms
+- RAD51 recombinase family
+- Genome integrity and stability
