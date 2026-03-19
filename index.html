@@ -2693,7 +2693,55 @@
       margin-top: 14px;
     }
 
-    .footer-note { margin-top: 18px; color: var(--soft); font-size: 13px; line-height: 1.7; }
+    .repo-side-button {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 45;
+      text-decoration: none;
+      color: #f7f2e9;
+      background: linear-gradient(135deg, rgba(25,50,79,.96), rgba(46,79,103,.94));
+      border: 1px solid rgba(247,242,233,.18);
+      border-radius: 14px;
+      padding: 11px 13px;
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      box-shadow: 0 18px 32px rgba(25,50,79,.24);
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .repo-side-button:hover {
+      transform: translateY(-50%) translateY(-2px);
+      box-shadow: 0 24px 36px rgba(25,50,79,.3);
+      background: linear-gradient(135deg, rgba(33,64,98,.98), rgba(56,94,121,.95));
+    }
+    .repo-side-button.left {
+      left: 14px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+    .repo-side-button.right {
+      right: 14px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+    .footer-note {
+      margin-top: 26px;
+      color: var(--soft);
+      font-size: 13px;
+      line-height: 1.7;
+      text-align: center;
+      letter-spacing: .02em;
+    }
+    .footer-note a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(25,50,79,.24);
+    }
+    .footer-note a:hover {
+      border-bottom-color: rgba(25,50,79,.5);
+    }
 
     @media (max-width: 1080px) {
       .hero, .overview, .main-grid, .archive-header, .present-grid, .evidence-audit, .source-explorer-header, .exhibit-grid, .ledger-grid, .reader-modes, .chapter-compass-header, .exhibit-reading-frame, .archive-capture-head, .archive-capture-body { grid-template-columns: 1fr; }
@@ -2721,10 +2769,24 @@
       .timeline-card::before { left: -26px; }
       .map-shell { min-height: 400px; }
       .map-nav { grid-template-columns: 1fr; }
+      .repo-side-button {
+        top: auto;
+        bottom: 16px;
+        transform: none;
+        padding: 10px 12px;
+        font-size: 10px;
+      }
+      .repo-side-button:hover {
+        transform: translateY(-2px);
+      }
+      .repo-side-button.left { left: 12px; }
+      .repo-side-button.right { right: 12px; }
     }
   </style>
 </head>
 <body>
+  <a class="repo-side-button left" href="https://github.com/ktwu01/sean-xiang-chronicle/stargazers" target="_blank" rel="noopener noreferrer" aria-label="Star this repository on GitHub">Star repo</a>
+  <a class="repo-side-button right" href="https://github.com/ktwu01/sean-xiang-chronicle/fork" target="_blank" rel="noopener noreferrer" aria-label="Fork this repository on GitHub">Fork repo</a>
   <main class="shell">
     <div class="topline">
       <span>Sean Xiang Chronicle</span>
@@ -2918,6 +2980,10 @@
         <div class="sources-list" id="sourcesList"></div>
       </article>
     </section>
+    <p class="footer-note">
+      Koutian Wu et al. - GitHub repository:
+      <a href="https://github.com/ktwu01/sean-xiang-chronicle" target="_blank" rel="noopener noreferrer">https://github.com/ktwu01/sean-xiang-chronicle</a>
+    </p>
   </main>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
