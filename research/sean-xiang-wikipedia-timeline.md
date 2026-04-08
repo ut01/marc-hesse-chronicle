@@ -416,6 +416,16 @@
 [^66]: Hitachi Vantara. "Hitachi Interoperability Guide for HCP Ecosystem." https://www.hitachivantara.com/en-us/pdf/best-practices/hitachi-interoperability-guide-hcp-hcp-anywhere-hdi.pdf
 [^67]: Bloombase. "Bloombase Joins NVIDIA Inception Program." March 21, 2023. https://www.bloombase.com/news/2023-03-21-bloombase-joins-nvidia-inception-program
 [^68]: NIST. "Security Policy for Bloombase Cryptographic Module (FIPS 140-2 #1241) PDF." https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1241.pdf
+[^69]: Hong Kong Institution for International Finance (HKIIF). "Executive Committee Profile: Sean Xiang." https://hkiif.org/en/about-us/executive-committee/sean-xiang/
+[^70]: Launch Academy. "New Start-Up Visa (Maple) Company Bloombase Has Landed!" https://www.launchacademy.ca/new-start-up-visa-maple-company-bloombase-has-landed/
+[^71]: CB Insights. "Bloombase Technologies Profile and Funding." https://www.cbinsights.com/company/bloombase-technologies
+[^72]: RocketReach. "Sean Xiang, CEO at Bloombase - Professional Summary." https://rocketreach.co/sean-xiang-email_2712952
+[^73]: ZoomInfo. "Sean Xiang - CEO and Founder, Bloombase." https://www.zoominfo.com/p/Sean-Xiang/1460309995
+[^74]: Crunchbase. "Sean Xiang - Founder Profile." https://www.crunchbase.com/person/sean-xiang
+[^75]: EverybodyWiki. "Bloombase, Inc. - Comprehensive Corporate History." https://en.everybodywiki.com/Bloombase
+[^76]: PitchBook. "Bloombase Profile - Investment and Corporate Data." https://pitchbook.com/profiles/company/82741-06
+[^77]: PKI Consortium. "Member Directory: Bloombase Inc." https://pkic.org/members/bloombase/
+[^78]: NIST CSRC. "Validation Search: Bloombase Technologies Ltd." https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1241
 
 ---
 
