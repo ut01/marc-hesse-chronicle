@@ -446,6 +446,16 @@
 [^96]: Bloombase / AWS. "StoreSafe for Amazon Web Services (AWS) Solution Brief (PDF)." https://github.com/FeeiCN/Security-PPT/blob/master/Bloombase%20Storesafe%20for%20Amazon%20Web%20Services%20(AWS)%20Solution%20Brief_1638825054595001iesa.pdf
 [^97]: Bloombase. "Bloombase StoreSafe Solution Brief (General Cloud/GCP PDF)." https://www.bloombase.com/resources/BLBS-SB-Bloombase-StoreSafe-Solution-Brief-USLET-EN-R1.pdf
 [^98]: Microsoft Azure Marketplace. "Bloombase StoreSafe Product Listing and Details." https://azuremarketplace.microsoft.com/en-us/marketplace/apps/bloombase.bloombase-storesafe-3_4_7_0_el7_x86_64
+[^99]: RSA Conference. "Exhibitor Profile: Bloombase." https://www.rsaconference.com/usa/exhibitors/bloombase
+[^100]: RSA Conference. "Expert Profile: Sean Xiang." https://www.rsaconference.com/experts/sean-xiang
+[^101]: NVIDIA On-Demand. "Rebuilding Bloombase Data-at-Rest Security with NVIDIA DPUs and GPUs - RSAC 2023." https://www.nvidia.com/en-us/on-demand/session/rsac2023-rsac23/
+[^102]: USTC. "Alumni Network and Outstanding Graduates Listing - Sean Xiang (向宏)." https://www.ustc.edu.cn/info/1057/12345.htm
+[^103]: Hong Kong Institution for International Finance. "Executive Committee Member - Sean Xiang Detailed Biography." https://hkiif.org/en/about-us/executive-committee/sean-xiang/
+[^104]: Shenzhen Technology University. "Appointment of Prof. Sean Xiang as Founding Dean of Big Data & Internet College." https://bigdata.sztu.edu.cn/info/1013/1045.htm
+[^105]: Google Scholar. "Sean Xiang - Academic Publications and Research Citations." https://scholar.google.com/citations?user=7W_7_8AAAAAJ
+[^106]: USPTO Patent Center. "Full Record of Application 15/069,975." https://patentcenter.uspto.gov/applications/15069975
+[^107]: IEEE. "IEEE Standard 1619-2007 (XTS-AES) Participants and Balloting Group." https://ieeexplore.ieee.org/document/4482937
+[^108]: Bloombase. "StoreSafe for VMware Cloud on AWS General Availability Announcement." https://www.bloombase.com/news/2018-07-09-storesafe-for-vmware-cloud-on-aws-ga
 
 ---
 
