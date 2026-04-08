@@ -386,6 +386,16 @@
 [^36]: Storage Newsletter. "Bloombase and Utimaco Technology Alliance to Deliver Enhanced Data Security Solutions for AI Era." May 1, 2025. https://www.storagenewsletter.com/2025/05/01/bloombase-and-utimaco-technology-alliance-to-deliver-enhanced-data-security-solutions-for-ai-era/
 [^37]: CB Insights. "Bloombase Technologies Company Profile." Accessed 2026. https://www.cbinsights.com/company/bloombase-technologies
 [^38]: PitchBook. "Bloombase 2026 Company Profile." Accessed 2026. https://pitchbook.com/profiles/company/82741-06
+[^39]: Google Patents. "US20160277181A1: Method and System for High-Efficiency Self-Adaptive Modular Data Encryption." https://patents.google.com/patent/US20160277181A1
+[^40]: USPTO. "Patent No. 12,423,679: Digital asset vault." https://patentcenter.uspto.gov/applications/15069975
+[^41]: NIST. "FIPS 140-2 Consolidated Validation Certificate #1241." https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1241
+[^42]: Bloombase / IBM. "StoreSafe Data-at-Rest Encryption with IBM SKLM Solution Brief." https://www.bloombase.com/content/txuaKvBs
+[^43]: HPE. "HPE ProLiant and Bloombase StoreSafe Intelligent Storage Firewall." https://hpe.com/partners/bloombase
+[^44]: Dell Technologies. "Bloombase StoreSafe Solution Overview." https://infohub.delltechnologies.com/en-us/p/bloombase-storesafe/
+[^45]: Bloombase / VMware. "StoreSafe for VMware Cloud on AWS Solution Overview." https://www.bloombase.com/content/5WLHL7rP
+[^46]: Bloombase / Hitachi. "StoreSafe for Hitachi Content Platform (HCP) Solution Brief." https://bloomba.se/content/DsRDs8xi
+[^47]: NVIDIA GTC 2024. "Session S62642: Post-Quantum Security with BlueField DPUs and Morpheus." https://www.nvidia.com/en-us/on-demand/session/gtc24-s62642/
+[^48]: Bloombase. "Bloombase and Utimaco Announce Technology Alliance for AI Era." April 29, 2025. https://www.bloombase.com/news/2025-04-29-bloombase-and-utimaco-announce-technology-alliance-to-deliver-enhanced-data-security-solutions-for-ai-era
 
 ---
 
