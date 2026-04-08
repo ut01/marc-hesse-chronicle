@@ -436,6 +436,16 @@
 [^86]: Bloombase. "News and Events Index - Official Press Release Archive." https://www.bloombase.com/news_and_events
 [^87]: Bloombase Blog. "Rebuilding Data-at-Rest Security with NVIDIA DPUs and GPUs." https://www.bloombase.com/blog/rebuilding-bloombase-data-at-rest-security-with-nvidia-dpus-and-gpus/
 [^88]: OASIS Open. "KMIP Adoption and Technical Standards Compatibility." https://www.oasis-open.org/standards#kmip
+[^89]: Bloombase. "Bloombase StoreSafe Storage Firewall on Google Cloud Now Available on the Google Cloud Marketplace." May 14, 2024. https://www.bloombase.com/news/2024-05-14-bloombase-storesafe-storage-firewall-on-google-cloud-now-available-on-the-google-cloud-marketplace
+[^90]: Intel Builders. "Solutions Library: Bloombase StoreSafe Intelligent Storage Firewall." https://builders.intel.com/solutionslibrary/bloombase-storesafe-intelligent-storage-firewall
+[^91]: Entrust / Bloombase. "nShield HSM Integration Guide (PDF)." https://www.entrust.com/-/media/documentation/integration-guides/bloombase-storesafe-nshield-hsm-ig.pdf
+[^92]: Dell Technologies. "Bloombase StoreSafe Certification and Info Hub." https://infohub.delltechnologies.com/en-us/p/bloombase-storesafe-dell-technologies-info-hub/
+[^93]: Bloombase. "KeyCastle - Enterprise Key Lifecycle Management Product Page." https://www.bloombase.com/products/keycastle
+[^94]: SlideShare. "Bloombase KeyCastle Technical Specifications PDF." https://www.slideshare.net/slideshow/blbsprod-bloombasekeycastletechnicalspecificationsusletenr10pdf/275841441
+[^95]: SlideShare. "Bloombase KeyCastle Compatibility Matrix PDF." https://www.slideshare.net/slideshow/blbsprod-bloombasekeycastlecompatibilitymatrixusletenr21pdf/275841439
+[^96]: Bloombase / AWS. "StoreSafe for Amazon Web Services (AWS) Solution Brief (PDF)." https://github.com/FeeiCN/Security-PPT/blob/master/Bloombase%20Storesafe%20for%20Amazon%20Web%20Services%20(AWS)%20Solution%20Brief_1638825054595001iesa.pdf
+[^97]: Bloombase. "Bloombase StoreSafe Solution Brief (General Cloud/GCP PDF)." https://www.bloombase.com/resources/BLBS-SB-Bloombase-StoreSafe-Solution-Brief-USLET-EN-R1.pdf
+[^98]: Microsoft Azure Marketplace. "Bloombase StoreSafe Product Listing and Details." https://azuremarketplace.microsoft.com/en-us/marketplace/apps/bloombase.bloombase-storesafe-3_4_7_0_el7_x86_64
 
 ---
 
