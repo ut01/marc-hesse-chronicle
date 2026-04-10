@@ -1,354 +1,242 @@
 [
   {
-    "id": "shanxi-birth",
-    "phase": "Shanxi",
-    "range": "Early years",
-    "title": "Born in Shanxi",
-    "dek": "Sean Xiang was born in Shanxi.",
-    "narrative": [],
-    "proofPoints": [],
-    "locationId": "shanxi-birthplace",
-    "locationIds": ["shanxi-birthplace"],
-    "mapCaption": "Born in Shanxi.",
+    "id": "munich-edinburgh-formation",
+    "phase": "Edinburgh",
+    "range": "1990s–2000",
+    "title": "Geological foundations across Europe",
+    "dek": "Marc Hesse began his geological training at the Technical University of Munich before completing his BSc in Geology at the University of Edinburgh.",
+    "narrative": [
+      "Marc's journey into geosciences began with studies at the Technical University of Munich, where he developed an early interest in geological phenomena. He then moved to the University of Edinburgh, where he completed his BSc in Geology.",
+      "At Edinburgh, his work was recognized with multiple awards including the Edinburgh Geological Society Prize (2000), the Mineralogical Society Student Award (1999), and the Total Oil Marine Prize (1999). This period established his broad geological foundation before the pivot toward mathematical modeling and fluid dynamics."
+    ],
+    "proofPoints": [
+      "BSc in Geology from University of Edinburgh (2000)",
+      "Edinburgh Geological Society Prize (2000)",
+      "Mineralogical Society Student Award (1999)"
+    ],
+    "locationId": "edinburgh",
+    "locationIds": ["munich", "edinburgh"],
+    "mapCaption": "Geological training across Munich and Edinburgh.",
     "mapCamera": {
-      "center": [
-        112.8518,
-        35.4907
-      ],
+      "center": [-3.1883, 55.9533],
       "zoom": 5.0,
       "pitch": 18,
       "bearing": -10
     },
-    "sources": [
-      "dossier",
-      "timeline-v2"
-    ],
+    "sources": ["jsg-profile", "oden-bio"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "Restrained narrative",
+      "stance": "Academic formation chapter",
       "strengthLabel": "Source mix",
-      "strength": "Narrative chapter",
+      "strength": "University profile data",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Early life chapter"
+      "artifact": "Early academic chapter"
     }
   },
   {
-    "id": "hefei-ustc",
-    "phase": "USTC",
-    "range": "1980",
-    "title": "Entering USTC",
-    "dek": "Admitted to USTC in Hefei in 1980, majoring in Physics.",
+    "id": "mit-cambridge-pivot",
+    "phase": "MIT/Cambridge",
+    "range": "2000–2003",
+    "title": "From oceanography to applied mathematics",
+    "dek": "MS in Oceanography from MIT-WHOI Joint Program, followed by MPhil in Fluid Flow from Cambridge University.",
     "narrative": [
-      "This marked the formal beginning of a highly accelerated academic and technical trajectory, laying a rigorous foundation in the sciences."
-    ],
-    "proofPoints": [],
-    "locationId": "hefei",
-    "locationIds": ["hefei"],
-    "mapCaption": "Xiang entered USTC in Hefei, Anhui in 1980, majoring in Physics.",
-    "mapCamera": {
-      "center": [
-        117.2638,
-        31.8390
-      ],
-      "zoom": 5.0,
-      "pitch": 18,
-      "bearing": -10
-    },
-    "sources": [
-      "dossier",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Restrained narrative",
-      "strengthLabel": "Source mix",
-      "strength": "Narrative chapter",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Academic foundation chapter"
-    }
-  },
-  {
-    "id": "research-formation",
-    "phase": "CUHK",
-    "range": "Graduate era – 1997",
-    "title": "A long research arc before Silicon Valley",
-    "dek": "A Ph.D. in Electrical and Electronic Engineering from CUHK, followed by a Research Associate role at HKUST, preceded everything that followed.",
-    "narrative": [
-      "Sean Xiang’s trajectory did not begin with a leap into entrepreneurship, but with a rigorous academic foundation. Earning a Ph.D. in Electrical and Electronic Engineering from The Chinese University of Hong Kong, he established a deep technical baseline.",
-      "After CUHK, a Research Associate role at HKUST (1996–1997) extended his research depth before the move to California. This scientific grounding proved crucial — the later Bloombase architecture proved resilient across multiple computing waves precisely because of this formation period."
-    ],
-    "proofPoints": [],
-    "locationId": "hong-kong",
-    "locationIds": ["hong-kong"],
-    "mapCaption": "Ph.D. formation at The Chinese University of Hong Kong in Electrical and Electronic Engineering.",
-    "mapCamera": {
-      "center": [
-        114.2068,
-        22.4196
-      ],
-      "zoom": 10.5,
-      "pitch": 34,
-      "bearing": 6
-    },
-    "sources": [
-      "launch-academy",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Public profile-backed chapter",
-      "strengthLabel": "Source mix",
-      "strength": "Third-party connective source plus timeline synthesis",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Research formation chapter"
-    }
-  },
-  {
-    "id": "california-transition",
-    "phase": "Beckman",
-    "range": "1997–1999",
-    "title": "Bridging science and technology strategy",
-    "dek": "Scientist at the Beckman Laser Institute & Medical Clinic, UC Irvine, August 1997 to December 1999.",
-    "narrative": [
-      "The move from Hong Kong to California shifted the geography and the network — from academic formation toward the institutional ecosystems of the American technology sector, setting the stage for the company-building phase that followed."
-    ],
-    "proofPoints": [],
-    "locationId": "irvine",
-    "locationIds": ["irvine"],
-    "mapCaption": "Scientist at the Beckman Laser Institute, UC Irvine — the transition from pure academia toward company-building.",
-    "mapCamera": {
-      "center": [
-        -117.8443,
-        33.6405
-      ],
-      "zoom": 10.5,
-      "pitch": 30,
-      "bearing": -18
-    },
-    "sources": [
-      "launch-academy",
-      "dossier"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Bridge chapter with one key public profile anchor",
-      "strengthLabel": "Source mix",
-      "strength": "Third-party profile plus dossier synthesis",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "California transition chapter"
-    }
-  },
-  {
-    "id": "founding-bloombase",
-    "phase": "Bloombase",
-    "range": "2012–present",
-    "title": "Bloombase is the long arc: enterprise data security built for endurance",
-    "dek": "Co-Founder & CEO of Bloombase since January 2012 — a multi-era infrastructure build embedding specialized security within global enterprise systems.",
-    "narrative": [
-      "Establishing headquarters in Redwood City placed Bloombase directly within Silicon Valley's infrastructure ecosystem — a strategic alignment with cloud ecosystems, hardware security module vendors, and enterprise buyers who demanded uncompromising platform trust.",
-      "In this highly unforgiving enterprise security market, Bloombase laid the groundwork for decades of architectural relevance."
+      "Marc's graduate education began at the MIT-WHOI Joint Program, where he earned an MS in Oceanography (2000–2002) with support from a Presidential Graduate Fellowship. This period marked his initial engagement with fluid dynamics in earth science contexts.",
+      "He then pursued an MPhil in Fluid Flow at the University of Cambridge's Department of Applied Mathematics and Theoretical Physics (2002–2003), supported by a European Trust Bursary and EPSRC Studentship. This Cambridge period represented a decisive pivot toward mathematical modeling and its applications in geosciences."
     ],
     "proofPoints": [
-      "2013 releases across OpenStack, EMC, and VMware demonstrate early and deep platform integration.",
-      "2012 appearances in the Open Virtualization Alliance show early positioning in cloud security.",
-      "2014 advisory board expansion highlights early strategic organizational growth."
+      "Presidential Graduate Fellowship at MIT (2000–2002)",
+      "MPhil in Fluid Flow from Cambridge DAMTP (2002–2003)",
+      "European Trust Bursary & EPSRC Studentship"
     ],
-    "locationId": "redwood-city",
-    "locationIds": ["redwood-city"],
-    "mapCaption": "Bloombase founded in Redwood City, Silicon Valley.",
+    "locationId": "cambridge-ma",
+    "locationIds": ["cambridge-ma", "cambridge-uk"],
+    "mapCaption": "Graduate training spanning MIT-WHOI and Cambridge University.",
     "mapCamera": {
-      "center": [
-        -122.2364,
-        37.4852
-      ],
-      "zoom": 10.5,
-      "pitch": 28,
-      "bearing": -22
-    },
-    "sources": [
-      "ova-2012",
-      "bloombase-about",
-      "bloombase-offices",
-      "slayton-2014",
-      "bloombase-news-index",
-      "openstack-2013",
-      "emc-2013",
-      "vmware-2013",
-      "dossier",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Company-spine chapter",
-      "strengthLabel": "Source mix",
-      "strength": "Primary company URLs now support a stronger founding and geography layer",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Source cards ready"
-    }
-  },
-  {
-    "id": "enterprise-validation",
-    "phase": "Expand",
-    "range": "2014–2020",
-    "title": "Validation accumulates through alliances, certifications, and interoperability",
-    "dek": "A dense network of certifications and partnerships established Bloombase as a universally trusted layer in enterprise infrastructure.",
-    "narrative": [
-      "From 2014 to 2020, Bloombase methodically expanded its interoperability map. Announcements cataloged deep technical integration with Dell, Hitachi, HP ESKM, Thales ASAP, IBM, VMware Cloud on AWS, and Microsoft Azure Marketplace.",
-      "These milestones represent more than a collection of alliances; they show a clear accumulation pattern of trust. Across changing infrastructure regimes, Bloombase consistently positioned itself at the nexus where data security and performance are non-negotiable."
-    ],
-    "proofPoints": [
-      "2013-2014: Early validation established with OpenStack, EMC, VMware, Dell, and Hitachi.",
-      "2015-2017: Certifications with HP, Thales, Ultra Electronics, HPE, IBM, ATTO, and Huawei deepen custody and storage trust.",
-      "2018-2020: Public cloud scale confirmed through VMware Cloud on AWS and Microsoft Azure Marketplace.",
-      "Hardware security module (HSM) integrations widened aggressively through Marvell, nCipher, and Futurex."
-    ],
-    "locationId": "redwood-city",
-    "locationIds": ["redwood-city"],
-    "mapCaption": "Enterprise validation years based in Silicon Valley.",
-    "mapCamera": {
-      "center": [
-        -122.2364,
-        37.4852
-      ],
-      "zoom": 9.0,
-      "pitch": 44,
-      "bearing": -8
-    },
-    "sources": [
-      "openstack-2013",
-      "emc-2013",
-      "vmware-2013",
-      "vmware-2014",
-      "hitachi-2014",
-      "hp-2015",
-      "thales-2015",
-      "hpe-2015",
-      "ibm-2017",
-      "huawei-2017",
-      "vmware-aws-2018",
-      "azure-2019",
-      "marvell-2019",
-      "ncipher-2019",
-      "futurex-2020"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Strongest historical chapter",
-      "strengthLabel": "Source mix",
-      "strength": "Dense first-party alliance and certification trail",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Ready for richer document-style artifact cards"
-    }
-  },
-  {
-    "id": "geographic-expansion",
-    "phase": "Vancouver",
-    "range": "2018 onward",
-    "title": "The geography widens: strategic expansion to Canada",
-    "dek": "Expansion beyond Silicon Valley emphasized global talent, advanced cryptography capability, and strategic ecosystem scale.",
-    "narrative": [
-      "Recognizing the increasing global demand for rigorous data protection, Bloombase strategically expanded its operations into Canada. As detailed in a 2018 Launch Academy profile, Vancouver provided a strong talent pool, advanced cryptography resources, and a supportive technology ecosystem.",
-      "This geographic shift marked a transition from a Silicon Valley-centric operation to a mature, international engineering organization structured for scale."
-    ],
-    "proofPoints": [
-      "Vancouver office launch captured in 2018 Launch Academy profile."
-    ],
-    "locationId": "vancouver",
-    "locationIds": ["vancouver"],
-    "mapCaption": "Bloombase expands to Vancouver for cryptography talent and ecosystem scale.",
-    "mapCamera": {
-      "center": [
-        -123.1207,
-        49.2827
-      ],
-      "zoom": 5.25,
-      "pitch": 32,
-      "bearing": 14
-    },
-    "sources": [
-      "launch-academy",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Selective expansion chapter",
-      "strengthLabel": "Source mix",
-      "strength": "One strong public expansion profile plus chronology support",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Geographic expansion chapter"
-    }
-  },
-  {
-    "id": "shenzhen-academic",
-    "phase": "Shenzhen",
-    "range": "2018–2023",
-    "title": "Parallel academic chapter: Founding Dean and Institute co-founder in Shenzhen",
-    "dek": "Alongside leading Bloombase, Sean Xiang built an academic track in Shenzhen — Founding Dean of the School of Artificial Intelligence at Shenzhen Technology University, then Chair Professor and Co-founder at the X-Institute of Shenzhen.",
-    "narrative": [
-      "Both roles were part-time and ran in parallel with his CEO duties at Bloombase. This parallel academic arc reflects the same technical thesis: that AI-era infrastructure demands deep cryptographic and security foundations."
-    ],
-    "proofPoints": [],
-    "locationId": "shenzhen",
-    "locationIds": ["shenzhen"],
-    "mapCaption": "Shenzhen academic chapter: Founding Dean of AI at SZTech, then X-Institute co-founder.",
-    "mapCamera": {
-      "center": [
-        114.0579,
-        22.5431
-      ],
-      "zoom": 5.5,
-      "pitch": 28,
+      "center": [-71.0942, 42.3601],
+      "zoom": 4.5,
+      "pitch": 20,
       "bearing": 0
     },
-    "sources": [
-      "dossier"
-    ],
+    "sources": ["jsg-profile"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "LinkedIn-confirmed institutional roles",
+      "stance": "Graduate formation chapter",
       "strengthLabel": "Source mix",
-      "strength": "Direct LinkedIn profile data",
+      "strength": "Academic profile data",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Shenzhen academic chapter"
+      "artifact": "Graduate training chapter"
     }
   },
   {
-    "id": "ai-era",
-    "phase": "AI era",
-    "range": "2023–now",
-    "title": "The current chapter is not nostalgia — it is AI infrastructure",
-    "dek": "Rebuilding enterprise security primitives for the AI-infrastructure era: post-quantum cryptography, NVIDIA accelerators, and a new standards-layer presence.",
+    "id": "stanford-doctoral",
+    "phase": "Stanford",
+    "range": "2003–2008",
+    "title": "Doctoral specialization in porous media",
+    "dek": "PhD in Petroleum Engineering from Stanford University, establishing expertise in porous media and fluid dynamics.",
     "narrative": [
-      "In 2023, Bloombase rebuilt data-at-rest encryption to run natively on NVIDIA DPUs and GPUs — a technical argument that security must operate at the accelerator level to avoid becoming a bottleneck in AI data pipelines. At NVIDIA GTC 2024, Sean Xiang served as a panelist on AI-era cyber defense alongside executives from NVIDIA, Qrypt, and Reality Defender; the Bloombase booth demonstrated post-quantum cryptography (PQC) encryption powered by NVIDIA GPU, DPU, and Morpheus AI.",
-      "In 2025, a strategic alliance with Utimaco delivered integrated NIST FIPS 140-2 Level 3 certified HSM key protection and OASIS KMIP-compliant key management for AI-era workloads. Bloombase also joined the PKI Consortium in November 2024, deepening its participation in cryptographic standards infrastructure."
+      "At Stanford University's Department of Energy Resources Engineering, Marc completed his PhD in Petroleum Engineering (approximately 2003–2008). This doctoral work established his core expertise in porous media flow, mathematical modeling, and numerical simulation.",
+      "The Stanford period solidified his interdisciplinary approach, combining rigorous applied mathematics with geological and engineering applications. This foundation would prove essential for his later work on CO2 sequestration, magma dynamics, and reactive transport."
     ],
     "proofPoints": [
-      "2024: Entrust partnership integrating StoreSafe with nShield Connect HSMs."
+      "PhD in Petroleum Engineering from Stanford University",
+      "Specialization in porous media and fluid dynamics",
+      "Foundation for computational geoscience career"
     ],
-    "locationId": "global-ai",
-    "locationIds": ["global-ai"],
-    "mapCaption": "Bloombase integrates with NVIDIA, Utimaco, and global cloud infrastructure.",
+    "locationId": "stanford",
+    "locationIds": ["stanford"],
+    "mapCaption": "Doctoral training at Stanford University in petroleum engineering and porous media.",
     "mapCamera": {
-      "center": [
-        8,
-        24
-      ],
-      "zoom": 1.35,
+      "center": [-122.1697, 37.4275],
+      "zoom": 9.0,
+      "pitch": 25,
+      "bearing": -15
+    },
+    "sources": ["jsg-profile", "researchgate"],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "Doctoral formation chapter",
+      "strengthLabel": "Source mix",
+      "strength": "Academic profile confirmation",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Doctoral chapter"
+    }
+  },
+  {
+    "id": "brown-postdoc",
+    "phase": "Brown",
+    "range": "2008–2009",
+    "title": "Postdoctoral bridge to faculty career",
+    "dek": "Postdoctoral researcher in tectonophysics at Brown University.",
+    "narrative": [
+      "Following his Stanford doctorate, Marc served as a postdoctoral researcher in tectonophysics at Brown University (approximately 2008–2009). This position bridged his doctoral training and his faculty appointment at UT Austin.",
+      "The Brown postdoc expanded his research scope into solid earth geophysics and tectonophysics, complementing his fluid dynamics expertise and preparing him for the broad, interdisciplinary research program he would establish in Austin."
+    ],
+    "proofPoints": [
+      "Postdoctoral researcher at Brown University",
+      "Research focus in tectonophysics",
+      "Bridge between Stanford PhD and UT Austin faculty position"
+    ],
+    "locationId": "brown",
+    "locationIds": ["brown"],
+    "mapCaption": "Postdoctoral research at Brown University in tectonophysics.",
+    "mapCamera": {
+      "center": [-71.4025, 41.8268],
+      "zoom": 9.0,
+      "pitch": 20,
+      "bearing": 0
+    },
+    "sources": ["jsg-profile", "gfmg-bio"],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "Postdoctoral transition chapter",
+      "strengthLabel": "Source mix",
+      "strength": "Academic profile data",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Postdoc chapter"
+    }
+  },
+  {
+    "id": "ut-austin-career",
+    "phase": "UT Austin",
+    "range": "2009–present",
+    "title": "Building a research program in computational geosciences",
+    "dek": "From Assistant Professor to Dave P. Carlton Centennial Professor, establishing a leading research group in geological porous media.",
+    "narrative": [
+      "In Fall 2009, Marc joined the Jackson School of Geosciences and the Institute for Computational Engineering and Sciences (now the Oden Institute) at the University of Texas at Austin as an Assistant Professor. His goal was to establish a leading research group in geological porous media and energy geosciences.",
+      "His teaching and research excellence were recognized early with the John A. and Katherine G. Jackson Centennial Teaching Fellowship (2011) and the Shell Companies Foundation Centennial Chair in Geophysics (2012). He was promoted through the ranks and currently holds the Dave P. Carlton Centennial Professorship in Geology.",
+      "At UT Austin, Marc has supervised numerous PhD students, taught innovative courses on continuum mechanics and numerical modeling, and built an internationally recognized research program spanning CO2 sequestration, magma dynamics, reactive transport, and planetary science."
+    ],
+    "proofPoints": [
+      "Joined UT Austin as Assistant Professor in Fall 2009",
+      "Jackson Centennial Teaching Fellowship (2011)",
+      "Shell Companies Foundation Centennial Chair (2012)",
+      "Dave P. Carlton Centennial Professorship in Geology (current)"
+    ],
+    "locationId": "austin",
+    "locationIds": ["austin"],
+    "mapCaption": "Academic career at UT Austin spanning 2009 to present.",
+    "mapCamera": {
+      "center": [-97.7431, 30.2672],
+      "zoom": 9.5,
+      "pitch": 28,
+      "bearing": -10
+    },
+    "sources": ["jsg-profile", "oden-bio", "gfmg-bio"],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "Faculty career chapter",
+      "strengthLabel": "Source mix",
+      "strength": "University profile and biography",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Career progression chapter"
+    }
+  },
+  {
+    "id": "co2-research",
+    "phase": "CO2 Research",
+    "range": "2010s–present",
+    "title": "Geological CO2 storage and natural analogues",
+    "dek": "Pioneering research on CO2 dissolution dynamics using natural reservoirs like Bravo Dome as analogues for carbon sequestration.",
+    "narrative": [
+      "Marc's research on geological CO2 storage has provided crucial insights into the long-term fate of carbon dioxide in subsurface reservoirs. His work on the Bravo Dome natural CO2 reservoir in New Mexico demonstrated that 366 MtCO2 (22% of the original 1.6 GtCO2) dissolved into brine over 1.2–1.4 million years.",
+      "This research, published in 2014 and featured on the U.S. Department of Energy website in 2018, established natural CO2 reservoirs as essential analogues for understanding the security and effectiveness of geological carbon storage. The work integrates geochemistry, geophysics, and reservoir engineering to constrain dissolution rates that are too slow to observe in pilot projects."
+    ],
+    "proofPoints": [
+      "Bravo Dome study published (Sathaye et al. 2014)",
+      "Research featured by U.S. Department of Energy (2018)",
+      "Integration of geochemistry, geophysics, and reservoir engineering"
+    ],
+    "locationId": "austin",
+    "locationIds": ["austin"],
+    "mapCaption": "CO2 sequestration research conducted at UT Austin with field sites across North America.",
+    "mapCamera": {
+      "center": [-97.7431, 30.2672],
+      "zoom": 5.0,
+      "pitch": 20,
+      "bearing": 0
+    },
+    "sources": ["gfmg-research", "oden-news"],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "Research impact chapter",
+      "strengthLabel": "Source mix",
+      "strength": "Research page and DOE feature",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Research milestone chapter"
+    }
+  },
+  {
+    "id": "planetary-science",
+    "phase": "Planetary",
+    "range": "2010s–present",
+    "title": "Icy ocean worlds and planetary habitability",
+    "dek": "Current research on the habitability of icy moons like Europa and Enceladus, bridging geosciences and planetary science.",
+    "narrative": [
+      "Marc's research has expanded into planetary science, focusing on the habitability of icy ocean worlds in the outer solar system. His work addresses the hydrothermal evolution of primordial planetesimals and the interpretation of ice-penetrating radar data for missions like Europa Clipper.",
+      "This research direction exemplifies his belief that fluid dynamics provides a unifying theme across the geosciences. By applying porous media theory and computational methods to icy moons, his group bridges classical solid-earth sciences with planetary exploration and astrobiology."
+    ],
+    "proofPoints": [
+      "Research on Europa and Enceladus habitability",
+      "Hydrothermal evolution modeling of icy bodies",
+      "Collaboration with Europa Clipper mission team"
+    ],
+    "locationId": "austin",
+    "locationIds": ["austin"],
+    "mapCaption": "Planetary science research at UT Austin with implications for outer solar system exploration.",
+    "mapCamera": {
+      "center": [-97.7431, 30.2672],
+      "zoom": 2.0,
       "pitch": 10,
       "bearing": 0
     },
-    "sources": [
-      "nvidia-2023",
-      "utimaco-2025",
-      "dossier"
-    ],
+    "sources": ["oden-bio", "gfmg-people"],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "Present-tense relevance chapter",
+      "stance": "Current research frontier",
       "strengthLabel": "Source mix",
-      "strength": "Direct Bloombase sources with a clear AI-era frame",
+      "strength": "Faculty biography and research group page",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Best candidate for stronger media / announcement treatment"
+      "artifact": "Research frontier chapter"
     }
   }
 ]
